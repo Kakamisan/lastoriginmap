@@ -844,7 +844,7 @@
   "NightChickCM_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "화학탄 난사",
+    "name": "化学弹扫射",
     "img": "MultiMissile",
     "range": 2,
     "AP": 6,
