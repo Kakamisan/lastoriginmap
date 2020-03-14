@@ -3,7 +3,7 @@
   "stage": [
     {
       "title": "Daily2-1",
-      "name": "초급 기능 훈련",
+      "name": "初级技能训练",
       "wave": [
         {
           "title": "wave1",
@@ -132,7 +132,7 @@
     },
     {
       "title": "Daily2-2",
-      "name": "중급 기능 훈련",
+      "name": "中级技能训练",
       "wave": [
         {
           "title": "wave1",
@@ -261,7 +261,7 @@
     },
     {
       "title": "Daily2-3",
-      "name": "상급 기능 훈련",
+      "name": "上级技能训练",
       "wave": [
         {
           "title": "wave1",
@@ -390,7 +390,7 @@
     },
     {
       "title": "Daily2-4",
-      "name": "최상급 기능 훈련",
+      "name": "最高级技能训练",
       "wave": [
         {
           "title": "wave1",
