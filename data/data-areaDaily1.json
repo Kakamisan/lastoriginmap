@@ -3,7 +3,7 @@
   "stage": [
     {
       "title": "Daily1-1",
-      "name": "초급 모의 전투 훈련",
+      "name": "初级模拟战斗训练",
       "wave": [
         {
           "title": "wave1",
@@ -173,7 +173,7 @@
     },
     {
       "title": "Daily1-2",
-      "name": "중급 모의 전투 훈련",
+      "name": "中级模拟战斗训练",
       "wave": [
         {
           "title": "wave1",
@@ -343,7 +343,7 @@
     },
     {
       "title": "Daily1-3",
-      "name": "상급 모의 전투 훈련",
+      "name": "上级模拟战斗训练",
       "wave": [
         {
           "title": "wave1",
@@ -513,7 +513,7 @@
     },
     {
       "title": "Daily1-4",
-      "name": "최상급 모의 전투 훈련",
+      "name": "最高级模拟战斗训练",
       "wave": [
         {
           "title": "wave1",

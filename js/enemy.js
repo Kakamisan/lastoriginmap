@@ -298,7 +298,7 @@ function drawInfo(index, info)
 	$('.skill-description:last').removeClass('.skill-description');
 	$('.info-description:last').css('grid-area', '3/1/5/13');
 	if (info === undefined) info = '-';
-	$('.info-description:last').html('<h3>대상 정보</h3><p>' + info + '</p>');
+	$('.info-description:last').html('<h3>对象信息</h3><p>' + info + '</p>');
 
 	$('.active:last').removeClass("active");
 	$('.skill-container:eq(' + (index + 1) + ') .btn-info').addClass("active");
