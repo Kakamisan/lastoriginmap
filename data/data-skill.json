@@ -3666,11 +3666,11 @@
   "Spector_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "전자기장 미사일",
+    "name": "电磁导弹",
     "img": "MultiMissile",
     "range": 4,
     "AP": 6,
-    "description": "전자기장 미사일로造成 $(1.1) 伤害, 目标 命中/暴击/效果 발동을 下降.",
+    "description": "用电磁导弹造成 $(1.1) 伤害, 目标命中/暴击/效果发动率下降.",
     "areadata": [
       8,
       9,
@@ -3681,11 +3681,11 @@
   "Spector_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "반물질 역장 전개",
+    "name": "反物质立场展开",
     "img": "TeamDefBuff",
     "range": 6,
     "AP": 7,
-    "description": "반물질 역장을 넓게 전개해 周围아군이 受到伤害를 一定 횟수 解除.",
+    "description": "展开反物质立场，周围友军受到的伤害一定次数无效.",
     "areadata": [
       7,
       8,
@@ -3700,11 +3700,11 @@
   "Spector_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "반물질 역장",
+    "name": "反物质立场",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 반물질 역장을 전개해 自己 受到伤害를 一定 횟수 解除.",
+    "description": "回合开始时, 展开反物质立场，自己受到的伤害一定次数无效.",
     "areadata": [
       5
     ]
@@ -3712,11 +3712,11 @@
   "Spector_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "행동 예측",
+    "name": "行动预测",
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "使用技能时, 周围给友军적 분석 결과를 발신해 命中/闪避/AP 上升.",
+    "description": "使用技能时, 给周围友军发送敌人分析结果，命中/闪避/AP上升.",
     "areadata": [
       7,
       8,
@@ -3731,11 +3731,11 @@
   "Spector_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "은폐장",
+    "name": "隐蔽遮罩",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时, 은폐장을 전개해 闪避大幅增加. 该效果전투가 진행될수록 점감됩니다.",
+    "description": "战斗开始时, 展开隐蔽遮罩，闪避大幅增加. 该效果随着战斗进行逐渐减少.",
     "areadata": [
       5
     ]
@@ -3755,12 +3755,12 @@
   "NightChickC_EV2_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "연료 탱크 유폭",
+    "name": "油箱爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
     "attr": "fire",
-    "description": "死亡时, 油箱爆炸 对周围造成毁灭 伤害 解除减伤效果.",
+    "description": "死亡时, 油箱爆炸对周围造成毁灭伤害并解除减伤效果.",
     "areadata": [
       8,
       4,
@@ -3776,7 +3776,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时 HP在50%以下时, 受到伤害와 闪避减少 防御力大幅增加.",
+    "description": "回合开始时，HP在50%以下时, 受到伤害和闪避减少, 防御力大幅增加.",
     "areadata": [
       5
     ]
@@ -3784,12 +3784,12 @@
   "NightChickC_EV1_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "연료 탱크 유폭",
+    "name": "油箱爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
     "attr": "fire",
-    "description": "死亡时, 油箱爆炸 对周围造成毁灭 伤害 解除减伤效果.",
+    "description": "死亡时, 油箱爆炸对周围造成毁灭伤害并解除减伤效果.",
     "areadata": [
       8,
       4,
@@ -3805,7 +3805,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "HP 25%以下时受到伤害减少, 行动力/命中/效果抗性大幅增加.",
+    "description": "HP25%以下时受到伤害减少, 行动力/命中/效果抗性大幅增加.",
     "areadata": [
       5
     ]
@@ -3813,12 +3813,12 @@
   "NightChickC_EV3_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "연료 탱크 유폭",
+    "name": "油箱爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
     "attr": "fire",
-    "description": "死亡时, 油箱爆炸 对周围造成毁灭 伤害 解除减伤效果.",
+    "description": "死亡时, 油箱爆炸对周围造成毁灭伤害并解除减伤效果.",
     "areadata": [
       8,
       4,
@@ -3830,12 +3830,12 @@
   "NightChickC_EV4_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "연료 탱크 유폭",
+    "name": "油箱爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
     "attr": "fire",
-    "description": "死亡时, 油箱爆炸 对周围造成毁灭 伤害 解除减伤效果.",
+    "description": "死亡时, 油箱爆炸对周围造成毁灭伤害并解除减伤效果.",
     "areadata": [
       8,
       4,
@@ -3847,11 +3847,11 @@
   "BigChickSP_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "돌격 난사",
+    "name": "突击乱射",
     "img": "Shot",
     "range": 3,
     "AP": 6,
-    "description": "기관포를 射击목표 적에게造成 $(0.5) 伤害.",
+    "description": "机关炮射击目标区域造成 $(0.5) 伤害.",
     "areadata": [
       8,
       5,
@@ -3861,11 +3861,11 @@
   "BigChickSP_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "기관포 난사",
+    "name": "机关炮扫射",
     "img": "Shot",
     "range": 1,
     "AP": 8,
-    "description": "기관포를 난사해 목표 적들에게造成 $(1) 伤害.",
+    "description": "机关炮扫射目标区域造成 $(1) 伤害.",
     "areadata": [
       7,
       4,
@@ -3876,11 +3876,11 @@
   "BigChickSP_EV1_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "과출력 상태",
+    "name": "过载状态",
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "自己的 HP在50% 이상인 경우, 과출력 状态 变成 攻击力增加.",
+    "description": "自己的HP在50%以上时, 变成过载状态，攻击力增加.",
     "areadata": [
       5
     ]
@@ -3892,7 +3892,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "HP 25%以下时受到伤害减少, 行动力/命中/效果抗性大幅增加.",
+    "description": "HP25%以下时受到伤害减少, 行动力/命中/效果抗性大幅增加.",
     "areadata": [
       5
     ]
@@ -3900,12 +3900,12 @@
   "NightChickC_EV6_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "연료 탱크 유폭",
+    "name": "油箱爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
     "attr": "fire",
-    "description": "死亡时, 油箱爆炸 对周围造成毁灭 伤害 解除减伤效果.",
+    "description": "死亡时, 油箱爆炸对周围造成毁灭伤害并解除减伤效果.",
     "areadata": [
       8,
       4,
@@ -3921,7 +3921,7 @@
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "自己的 HP在50% 以下 的状态 被击时, 周围向铁虫下达拦截命令  AP增加.",
+    "description": "自己的HP在50%以下的状态被击时, 周围向铁虫下达拦截命令，AP增加.",
     "areadata": [
       7,
       8,
@@ -3936,12 +3936,12 @@
   "NightChickC_EV5_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "연료 탱크 유폭",
+    "name": "油箱爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
     "attr": "fire",
-    "description": "死亡时, 油箱爆炸 对周围造成毁灭 伤害 解除减伤效果.",
+    "description": "死亡时, 油箱爆炸对周围造成毁灭伤害并解除减伤效果.",
     "areadata": [
       8,
       4,
@@ -3957,7 +3957,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时 HP在50%以下时, 受到伤害와 闪避减少 防御力大幅增加.",
+    "description": "回合开始时，HP在50%以下时, 受到伤害和闪避减少，防御力大幅增加.",
     "areadata": [
       5
     ]
@@ -3977,12 +3977,12 @@
   "NightChickC_EV8_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "연료 탱크 유폭",
+    "name": "油箱爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
     "attr": "fire",
-    "description": "死亡时, 油箱爆炸 对周围造成毁灭 伤害 解除减伤效果.",
+    "description": "死亡时, 油箱爆炸对周围造成毁灭伤害并解除减伤效果.",
     "areadata": [
       8,
       4,
@@ -3994,11 +3994,11 @@
   "EmperorChick_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "칙 머신캐논",
+    "name": "机炮加农",
     "img": "MGShot",
     "range": 4,
     "AP": 5,
-    "description": "대구경 기관포로造成 $(1.8) 伤害, 对目标무작위 방해 效果赋予.",
+    "description": "使用大口径机关炮造成 $(1.8) 伤害, 赋予目标随机干扰效果.",
     "areadata": [
       5
     ]
@@ -4006,11 +4006,11 @@
   "EmperorChick_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "칙 파이널 어택",
+    "name": "终结一击",
     "img": "WideBeamShot",
     "range": 3,
     "AP": 10,
-    "description": "전 무장을 射击目标范围造成 $(2) 伤害. 목표 중심점 밖일수록 피해减少, <광분> 状态时伤害量 大幅增加.",
+    "description": "使用全副武装射击目标范围造成 $(2) 伤害. 距离中心越远伤害越低, <光解>状态时伤害量大幅增加.",
     "areadata": [
       0.5,
       0.75,
@@ -4026,11 +4026,11 @@
   "EmperorChick_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "전투 프로그램 설정",
+    "name": "战斗程序",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 自己的 HP在50%以下时전투 프로그램을 갱신해 与自己周围给友军무작위 强化效果赋予. 낮은 概率 치명적 错误发生 행동 불가가 되거나 受到伤害 增加状态.",
+    "description": "回合开始时, 自己的HP在50%以下时更新战斗程序，赋予自己和周围友军随机强化效果. 低概率更新发生错误，陷入不可行动或受到伤害增加状态.",
     "areadata": [
       7,
       8,
@@ -4046,11 +4046,11 @@
   "EmperorChick_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "칙 철벽 방어술",
+    "name": "齐克铁壁",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "공격한 후, 防御采取姿态 해당 回合内에는 只受到最小伤害.",
+    "description": "攻击后, 采取防御姿态，该回合内只受到最小伤害.",
     "areadata": [
       5
     ]
@@ -4058,11 +4058,11 @@
   "EmperorChick_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "앵그리 칙",
+    "name": "齐克之怒",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "友军死亡时3回合内攻击力增加. 回合开始时, <앵그리 칙>이 3 중첩 以上时 <광분> 状态 变成 攻击力/命中/暴击/行动力 增加减伤效果无视.",
+    "description": "友军死亡时3回合内攻击力增加. 回合开始时, <齐克之怒>叠加3以上时变成<光解>状态，攻击力/命中/暴击/行动力增加并无视减伤效果.",
     "areadata": [
       5
     ]
@@ -4070,12 +4070,12 @@
   "NightChickC_EV7_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "연료 탱크 유폭",
+    "name": "油箱爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
     "attr": "fire",
-    "description": "死亡时, 油箱爆炸 对周围造成毁灭 伤害 解除减伤效果.",
+    "description": "死亡时, 油箱爆炸对周围造成毁灭伤害并解除减伤效果.",
     "areadata": [
       8,
       4,
@@ -4087,11 +4087,11 @@
   "BigChickSP_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "과출력 상태",
+    "name": "过载状态",
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "自己的 HP在50% 이상인 경우, 과출력 状态 变成 攻击力增加.",
+    "description": "自己的HP在50%以上时, 变成过载状态，攻击力增加.",
     "areadata": [
       5
     ]
@@ -4099,11 +4099,11 @@
   "NightChickQMEX_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "攻击훼방",
+    "name": "攻击妨碍",
     "img": "Shot",
     "range": 4,
     "AP": 5,
-    "description": "对目标造成 $(1.2) 伤害, 2回合内目标 攻击力/命中/暴击 下降. 该效果2회까지 可叠加.",
+    "description": "对目标造成 $(1.2) 伤害, 2回合内目标攻击力/命中/暴击下降. 该效果最大可叠加2次.",
     "areadata": [
       5
     ]
@@ -4111,11 +4111,11 @@
   "NightChickQMEX_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "전무장 보급",
+    "name": "武器供应",
     "img": "TeamAtkBuff",
     "range": 3,
     "AP": 7,
-    "description": "周围友军 출력을 강화해 攻击力/命中/暴击 上升. 自己 行动力增加.  该效果2회까지 可叠加.",
+    "description": "周围友军攻击力/命中/暴击上升. 自己行动力增加.该效果最大可叠加2次.",
     "areadata": [
       8,
       4,
@@ -4127,11 +4127,11 @@
   "NightChickQMEX_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "칙 약진하기",
+    "name": "掌握进展",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 一定 概率 무장 보급을 받은 友军 支援攻击, 被击时 회피율이增加. 회피율 增加效果最大2회 可叠加.",
+    "description": "回合开始时, 一定概率对受到武器供应的友军支援攻击, 被击时闪避增加. 闪避增加效果最大可叠加2次.",
     "areadata": [
       7,
       8,
@@ -4147,11 +4147,11 @@
   "NightChickQMEX_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "전황 판단",
+    "name": "战况判断",
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 배치된 열에 따라 아군 또는 자신에게 추가 效果 부여됩니다. 전열에 배치된 如果 아군 전체의防御力/모든 抗性 올려주고, 중열에 배치된 如果 自己的 行动力/防御力/伤害 감소가 增加, 후열에 배치된 如果 아군 전체의 攻击力/命中 올려줍합니다.",
+    "description": "回合开始时, 根据所在列赋予不同强化效果. 在前列时所有友军防御力/所有抗性增加, 在中列时自己的行动力/防御力/减伤增加, 在后列时所有友军攻击力/命中上升.",
     "areadata": [
       7,
       8,
@@ -4167,11 +4167,11 @@
   "NightChickQMEX_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "배수진",
+    "name": "背水一战",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "死亡时, 所有友军 行动力减少, 受到伤害/攻击力/命中增加.",
+    "description": "死亡时, 所有友军行动力减少, 受到伤害/攻击力/命中增加.",
     "areadata": [
       7,
       8,
@@ -4187,11 +4187,11 @@
   "SpectorBS_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "전자기장 미사일 난사",
+    "name": "电磁导弹倾泻",
     "img": "MultiMissile",
     "range": 4,
     "AP": 6,
-    "description": "전자기장 导弹 난사해造成 $(1.2) 伤害, 目标 暴击/效果 발동/射程를 下降. 该效果2회까지 可叠加.",
+    "description": "电磁导弹倾泻而出造成 $(1.2) 伤害, 目标暴击/效果发动/射程下降. 该效果最大可叠加2次.",
     "areadata": [
       8,
       9,
@@ -4202,11 +4202,11 @@
   "SpectorBS_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "강화 역장 전개",
+    "name": "强化立场展开",
     "img": "TeamDefBuff",
     "range": 6,
     "AP": 7,
-    "description": "반물질 역장을 넓게 전개해 周围아군이 受到伤害를 一定 횟수 무효화하고, 与自己周围友军 效果 抗性 上升.",
+    "description": "展开反物质立场，周围友军受到的伤害一定次数无效, 自己与周围友军效果抗性上升.",
     "areadata": [
       7,
       8,
@@ -4221,11 +4221,11 @@
   "SpectorBS_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "강화 반물질 역장",
+    "name": "强化反物质立场",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 반물질 역장을 전개해 自己 受到伤害를 一定 횟수 무효화하고, 受到伤害를 下降.",
+    "description": "回合开始时, 展开反物质立场, 自己受到的伤害一定次数无效, 受到伤害下降.",
     "areadata": [
       5
     ]
@@ -4233,11 +4233,11 @@
   "SpectorBS_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "전황 예측",
+    "name": "战况预测",
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "使用技能时, 周围给友军적 분석 결과를 발신해 命中/闪避/AP 上升.",
+    "description": "使用技能时, 给周围友军发送敌人分析结果，命中/闪避/AP上升.",
     "areadata": [
       7,
       8,
@@ -4252,11 +4252,11 @@
   "SpectorBS_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "강화 은폐장",
+    "name": "强化隐蔽遮罩",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时, 은폐장을 전개해 闪避大幅增加. 该效果전투가 진행될수록 점감됩니다.",
+    "description": "战斗开始时, 展开隐蔽遮罩，闪避大幅增加. 该效果随着战斗进行逐渐减少.",
     "areadata": [
       5
     ]
@@ -4264,11 +4264,11 @@
   "LegionSPEX_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "黏着弹 연사",
+    "name": "黏着弹抛洒",
     "img": "TeamSpdDeBuff",
     "range": 4,
     "AP": 5,
-    "description": "黏着弹을 연사해造成 $(0.01) 伤害, 目标闪避降低 闪避强化效果解除. 命中对象的行动力减少, 自己 적중과射程增加. 该效果2회까지 可叠加.",
+    "description": "黏着弹抛洒对目标区域造成 $(0.01) 伤害, 目标闪避降低，闪避强化效果解除. 命中对象的行动力减少, 自己命中和射程增加. 该效果最大可叠加2次.",
     "areadata": [
       8,
       5,
@@ -4278,11 +4278,11 @@
   "LegionSPEX_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "精密선도 사격",
+    "name": "精密先导射击",
     "img": "Snipe",
     "range": 5,
     "AP": 7,
-    "description": "精密선도 射击造成 $(1.5) 防御관통 伤害. 目标为机动型时, 伤害量 大幅增加.",
+    "description": "精密先导射击造成 $(1.5) 防御穿透伤害. 目标为机动型时, 伤害量大幅增加.",
     "areadata": [
       5
     ]
@@ -4290,11 +4290,11 @@
   "LegionSPEX_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "伪装홀로그램 투영",
+    "name": "伪装全息投影",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "伪装홀로그램을 투영해, 距离敌阵越远闪避增加. 该效果攻击时, 在该回合中暂时解除.",
+    "description": "投影伪装全息, 距离敌阵越远闪避增加. 该效果攻击时, 在该回合中暂时解除.",
     "areadata": [
       5
     ]
@@ -4302,11 +4302,11 @@
   "LegionSPEX_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "저격 대응",
+    "name": "狙击应对",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "被击时, 재빠르게 대응해 行动力 增加激活反击. 行动力增加效果3회까지 可叠加.",
+    "description": "被击时, 迅速应对，行动力增加，激活反击. 行动力增加效果最大可叠加3次.",
     "areadata": [
       5
     ]
@@ -4314,11 +4314,11 @@
   "ScoutSP_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "충격탄 투하",
+    "name": "冲击弹投射",
     "img": "Missile",
     "range": 2,
     "AP": 6,
-    "description": "충격 导弹 투하해造成 $(1.2) 伤害 目标 AP 减少.",
+    "description": "投射冲击弹造成 $(1.2) 伤害，目标AP减少.",
     "areadata": [
       7,
       4,
@@ -4329,11 +4329,11 @@
   "ScoutSP_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "경보 발령",
+    "name": "警报",
     "img": "Scan",
     "range": 6,
     "AP": 6,
-    "description": "목표 给友军적 발견 警报 울려 目标 AP/射程/暴击增加.",
+    "description": "发起警报向目标友军传达敌讯，目标AP/射程/暴击增加.",
     "areadata": [
       5
     ]
@@ -4341,11 +4341,11 @@
   "ScoutSP_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "기습 편제",
+    "name": "突袭编队",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "移动时, 相邻友军攻击支援.",
+    "description": "移动时, 对相邻友军攻击支援.",
     "areadata": [
       8,
       4,
@@ -4357,11 +4357,11 @@
   "ScoutSP_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "지원 대열",
+    "name": "支援队伍",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 自己的 HP在50% 이상인 如果 인접 友军 攻击力/防御力/效果抗性增加. HP在25% 미만인 경우, 인접 友军 攻击力/防御力/行动力减少.",
+    "description": "回合开始时, 如果自己的HP在50%以上，附近友军攻击力/防御力/效果抗性增加. HP在25%以下, 附近友军攻击力/防御力/行动力减少.",
     "areadata": [
       8,
       4,
@@ -4373,11 +4373,11 @@
   "SpectorMS_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "교란용 전자기장 미사일",
+    "name": "干扰电磁导弹",
     "img": "MultiMissile",
     "range": 4,
     "AP": 6,
-    "description": "전자기장 미사일로 目标 교란해造成 $(1.2) 伤害, 目标 效果抗性/射程를 下降. 该效果2회까지 可叠加.",
+    "description": "用电磁导弹干扰目标造成 $(1.2) 伤害, 目标效果抗性/射程下降. 该效果最大可叠加2次.",
     "areadata": [
       7,
       4,
@@ -4388,11 +4388,11 @@
   "SpectorMS_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "모드 변경",
+    "name": "模式变更",
     "img": "TeamDefBuff",
     "range": 6,
     "AP": 7,
-    "description": "전투 모드转换为 攻击力/暴击增加但 受到伤害도 增加, 行动力减少.",
+    "description": "转换为战斗模式，攻击力/暴击增加但受到伤害增加, 行动力减少.",
     "areadata": [
       5
     ]
@@ -4400,11 +4400,11 @@
   "SpectorMS_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "이동형 반물질 역장",
+    "name": "移动型反物质立场",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 반물질 역장을 전개해 与自己인접 아군이 受到伤害를 一定 횟수 解除.",
+    "description": "回合开始时, 展开反物质立场，自己与周围友军受到的伤害一定次数无效.",
     "areadata": [
       7,
       8,
@@ -4420,11 +4420,11 @@
   "SpectorMS_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "전투 模式分析",
+    "name": "战斗模式分析",
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "被击时, 周围给友军전투 模式分析 결과를 발신해 命中/暴击/效果 抗性 上升. 该效果3회까지 可叠加.",
+    "description": "被击时, 给周围友军发送战斗模式分析，命中/暴击/效果抗性上升. 该效果最大可叠加3次.",
     "areadata": [
       7,
       8,
@@ -4439,11 +4439,11 @@
   "SpectorMS_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "은폐장 전개",
+    "name": "隐蔽遮罩展开",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时, 은폐장을 전개해 闪避大幅增加. 该效果전투가 진행될수록 점감됩니다.",
+    "description": "战斗开始时, 展开隐蔽遮罩，闪避大幅增加. 该效果随着战斗进行逐渐减少.",
     "areadata": [
       5
     ]
@@ -4514,12 +4514,12 @@
   "NightChickTD_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "스턴 샷",
+    "name": "电流射击",
     "img": "Shock",
     "range": 4,
     "AP": 4,
     "attr": "electric",
-    "description": "指定 对目标造成 $(1) 电属性伤害. 命中对象的高概率  AP/闪避/전기 抗性减少. 目标浸水 状态时伤害量大幅增加, 一定 概率 陷入不可行动状态.",
+    "description": "指定目标造成 $(1) 电属性伤害. 命中对象的高概率AP/闪避/电气抗性减少. 目标浸水状态时伤害量大幅增加, 一定概率陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -4527,12 +4527,12 @@
   "NightChickTD_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "일렉트릭 쇼크",
+    "name": "电流震荡",
     "img": "WideLightning",
     "range": 1,
     "AP": 8,
     "attr": "electric",
-    "description": "在指定范围造成 $(1) 无视保护 电属性伤害. 命中对象的高概率  AP/闪避减少. 目标浸水 状态时伤害量大幅增加, 受到 减伤상태를 解除.",
+    "description": "在指定范围无视保护造成 $(1) 电属性伤害. 命中对象的高概率AP/闪避减少. 目标浸水状态时伤害量大幅增加, 减伤效果解除.",
     "areadata": [
       4,
       5,
@@ -4542,11 +4542,11 @@
   "NightChickTD_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "과충전",
+    "name": "超负荷",
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "电属性 공격을 맞을 경우, 과충전 状态 变成 攻击力/命中/闪避/AP/行动力 大幅增加.",
+    "description": "被电属性攻击时, 变成超负荷状态，攻击力/命中/闪避/AP/行动力大幅增加.",
     "areadata": [
       5
     ]
@@ -4554,11 +4554,11 @@
   "NightChickTD_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "방전",
+    "name": "放电",
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 自己 浸水 状态时 방전으로 인한 固定 受到 伤害. 浸水 状态 死亡时, 范围内 대상들에게 电属性伤害. 해당 效果 적용되는 目标浸水 状态时, 행동 불가가 有可能.",
+    "description": "攻击时, 自己浸水状态时由于放电，受到固定伤害. 浸水状态下死亡时, 范围内目标受到电属性伤害. 被此技能电击的目标在浸水状态时，一定概率陷入不可行动状态.",
     "areadata": [
       8,
       4,
@@ -5046,12 +5046,12 @@
   "Chiller_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "동결 가스",
+    "name": "冻结气体",
     "img": "BeamShot",
     "range": 3,
     "AP": 6,
     "attr": "ice",
-    "description": "在指定范围造成 $(1) 冰属性伤害 目标无法移动状态造成. 目标浸水 状态时, 不可行动/受到伤害 增加陷入 解除强化效果.",
+    "description": "在指定范围造成 $(1) 冰属性伤害，目标无法移动状态造成. 目标浸水状态时, 陷入不可行动/受到伤害增加的冻结状态，并解除强化效果.",
     "areadata": [
       0,
       0,
@@ -5067,11 +5067,11 @@
   "Chiller_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "빙결 코팅",
+    "name": "冰冻涂层",
     "img": "TeamDefBuff",
     "range": 6,
     "AP": 5,
-    "description": "指定 아군과 자신에게防御을 부여하며,防御力 增加/受到伤害와火焰 저항 减少状态造成.",
+    "description": "赋予指定友军和自己防御幕, 防御力增加/受到伤害和火焰抗性减少.",
     "areadata": [
       5
     ]
@@ -5079,11 +5079,11 @@
   "Chiller_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "급속 냉각",
+    "name": "快速冷却",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "自己 浸水 状态 回合开始时, 攻击力/闪避/行动力大幅 增加最小伤害 입습니다.",
+    "description": "自己浸水状态回合开始时, 攻击力/闪避/行动力大幅增加，只受到最小伤害.",
     "areadata": [
       5
     ]
@@ -5091,11 +5091,11 @@
   "Chiller_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "과열",
+    "name": "过热",
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "火属性 공격을 맞는 경우, 攻击力/防御力/闪避/行动力大幅减少 伤害 최소화 状态 解除.",
+    "description": "被火属性攻击时, 攻击力/防御力/闪避/行动力大幅减少，伤害最小化状态解除.",
     "areadata": [
       5
     ]
@@ -5103,11 +5103,11 @@
   "LegionElite_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "파쇄 迷你机枪",
+    "name": "迷你机枪搅碎",
     "img": "MGShot",
     "range": 5,
     "AP": 5,
-    "description": "迷你机枪을 射击造成 $(1.2) 伤害. 目标标记/无法移动状态时伤害量 增加, 目标 解除减伤效果.",
+    "description": "用迷你机枪射击造成 $(1.2) 伤害. 目标标记/无法移动状态时伤害量增加, 解除目标减伤效果.",
     "areadata": [
       5
     ]
@@ -5115,11 +5115,11 @@
   "LegionElite_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "포획탄 발사",
+    "name": "捕获弹发射",
     "img": "SelfSpdDeBuff",
     "range": 5,
     "AP": 4,
-    "description": "포획탄을 射击造成 $(0.3) 伤害, 3回合内目标无法移动/行动力减少/闪避减少状态造成. 目标标记 状态时一定 概率 解除强化效果. 使用技能时, 3回合内自己的 行动力增加.",
+    "description": "捕获弹射击造成 $(0.3) 伤害, 造成3回合内目标无法移动/行动力减少/闪避减少状态. 目标标记状态时一定概率解除强化效果. 使用技能时, 3回合内自己的行动力增加.",
     "areadata": [
       5
     ]
@@ -5127,11 +5127,11 @@
   "LegionElite_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "상황 대응",
+    "name": "情况应对",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "아군 중 HP在25% 以下 目标있는 경우, 目标 行动力增加 目标攻击支援.",
+    "description": "如果友军HP在25%以下, 目标行动力增加，对目标攻击支援.",
     "areadata": [
       7,
       8,
@@ -5146,11 +5146,11 @@
   "LegionElite_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "조준 공유 시스템",
+    "name": "瞄准共享系统",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "인접 友军命中增加. 自己 死亡时, 此效果받는 友军的 적증 增加效果해제하고命中 减少.",
+    "description": "相邻友军命中增加. 自己死亡时, 此效果赋予友军的命中增加效果解除，命中减少.",
     "areadata": [
       8,
       4,
@@ -5161,11 +5161,11 @@
   "NightChickTD_TU3_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "방전",
+    "name": "放电",
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 自己 浸水 状态时 방전으로 인한 固定 受到 伤害. 浸水 状态 死亡时, 范围内 대상들에게 毁灭性 电属性伤害. 해당 效果 적용되는 目标浸水 状态时, 행동 불가가 有可能.",
+    "description": "攻击时, 自己浸水状态时由于放电，受到固定伤害. 浸水状态下死亡时, 范围内目标受到毁灭性电属性伤害. 被此技能电击的目标在浸水状态时，一定概率陷入不可行动状态.",
     "areadata": [
       8,
       4,
@@ -5177,11 +5177,11 @@
   "Testudo_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "무장 파괴",
+    "name": "武装破坏",
     "img": "ARShot",
     "range": 4,
     "AP": 3,
-    "description": "对目标造成 $(1) 伤害, 一定 概率 3回合内공격력/暴击/命中 下降.",
+    "description": "对目标造成 $(1) 伤害, 一定概率3回合内攻击力/暴击/命中下降.",
     "areadata": [
       5
     ]
@@ -5189,11 +5189,11 @@
   "Testudo_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "진형 사수",
+    "name": "死守防线",
     "img": "DefCounter",
     "range": 6,
     "AP": 7,
-    "description": "3回合内防御/행 보호가 적용되며 受到 伤害减少. 해당 的状态 공격받으면 激活反击.",
+    "description": "3回合内防御上升/行保护激活，受到伤害减少. 此状态下激活反击.",
     "areadata": [
       5
     ]
@@ -5201,11 +5201,11 @@
   "Testudo_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "방진 전개",
+    "name": "阵列部署",
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时 列保护效果 적용되며, 3回合内范围内 아군이受到伤害大幅减少.",
+    "description": "战斗开始时，列保护效果激活, 3回合内范围内友军受到伤害大幅减少.",
     "areadata": [
       8,
       9,
@@ -5218,11 +5218,11 @@
   "Testudo_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "출력 오버로드",
+    "name": "输出过载",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "아군이 처치될 때마다防御力이增加. 아군이 5기 이상 如果死亡 攻击능력이 대폭 增加, 防御幕和减伤效果무시하지만 持续固定 受到 伤害. 해당 的状态 死亡时, <방진 전개> 범위 안에 있는 给友军毁灭性 固定 伤害.",
+    "description": "友军每次死亡时，防御力增加. 如果友军死亡5次，自己攻击大幅增加, 获得无视防御幕和减伤效果，受到持续固定伤害. 此状态下死亡时, <阵列部署>范围内的友军受到毁灭性固定伤害.",
     "areadata": [
       5
     ]
@@ -5230,11 +5230,11 @@
   "CenturionG_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "집속 연장 미사일",
+    "name": "集束导弹",
     "img": "MultiMissile",
     "range": 6,
     "AP": 4,
-    "description": "在指定范围造成 $(1) 伤害, 3回合内目标标记/受到伤害 增加陷入 AP 减少. 一定 概率 命中目标 解除强化效果.",
+    "description": "在指定范围造成 $(1) 伤害, 3回合内目标指定标记/受到伤害增加，AP减少. 一定概率解除命中目标的强化效果.",
     "areadata": [
       8,
       4,
@@ -5246,11 +5246,11 @@
   "CenturionG_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "출력 한도 해제",
+    "name": "取消输出限制",
     "img": "TeamAtkBuff",
     "range": 6,
     "AP": 8,
-    "description": "周围友军 攻击力/暴击/行动力증가시키고 防御幕和받는 减伤无视 效果赋予. 此效果받은 对象是 持续固定 受到 伤害.",
+    "description": "周围友军攻击力/暴击/行动力上升，赋予无视防御幕和减伤效果. 受到此效果影响的对象受到持续固定伤害.",
     "areadata": [
       7,
       8,
@@ -5265,11 +5265,11 @@
   "CenturionG_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "전황 분석",
+    "name": "战况分析",
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "被击时, 所有友军 AP가 增加2回合内效果抗性大幅增加.",
+    "description": "被击时, 所有友军AP增加，2回合内效果抗性大幅增加.",
     "areadata": [
       7,
       8,
@@ -5285,11 +5285,11 @@
   "CenturionG_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "현장 수습",
+    "name": "现场整理",
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "아군이 死亡时, 一定 回合内반격하며 周围아군과 자신이受到伤害减少 行动力增加.",
+    "description": "友军死亡时, 一定回合内激活反击，周围友军和自己受到伤害减少，行动力增加.",
     "areadata": [
       8,
       4,
@@ -5301,11 +5301,11 @@
   "CenturionG_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "지휘 중추 상실",
+    "name": "指挥中枢丧失",
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "自己 死亡时, 所有友军 攻击力/暴击/命中/行动力大幅减少受到伤害增加.",
+    "description": "自己死亡时, 所有友军攻击力/暴击/命中/行动力大幅减少，受到伤害增加.",
     "areadata": [
       7,
       8,
@@ -5432,11 +5432,11 @@
   "RocCGenerator_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "전하 충전",
+    "name": "电荷充电",
     "img": "SelfAtkBuff",
     "range": 6,
     "AP": 4,
-    "description": "로크 (最大충전)에게 에너지를 충전해 攻击力和AP 上升.",
+    "description": "为“洛克 (最大充能)”充电，攻击力和AP上升.",
     "areadata": [
       7,
       8,
@@ -5452,11 +5452,11 @@
   "RocCGenerator_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "실드 충전",
+    "name": "充电护盾",
     "img": "SelfDefBuff",
     "range": 6,
     "AP": 7,
-    "description": "모든 给友军방어막을 赋予.",
+    "description": "赋予友军防御幕.",
     "areadata": [
       7,
       8,
@@ -5472,11 +5472,11 @@
   "RocCGenerator_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "복원 시스템",
+    "name": "复原系统",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 战斗续行效果 적용됩니다.",
+    "description": "回合开始时, 战斗续行效果激活.",
     "areadata": [
       5
     ]
@@ -5484,11 +5484,11 @@
   "RocCGenerator_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "복원 대기",
+    "name": "复原等待",
     "img": "SelfSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗续行 效果发动时, 3回合内不可行动状态 有可能.",
+    "description": "战斗续行发动时, 一定概率陷入3回合内不可行动状态.",
     "areadata": [
       5
     ]
@@ -5496,12 +5496,12 @@
   "RocC_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "S. 블리츠 스톰",
+    "name": "S. 闪电风暴",
     "img": "WideLightning",
     "range": 6,
     "AP": 8,
     "attr": "electric",
-    "description": "在指定范围造成 $(1) 无视保护 电属性伤害 AP/闪避/行动力/전기 抗性 下降. 목표 지점 주변은 伤害量 50%减少. <전하 충전> 중첩을 2 사용합니다.",
+    "description": "无视保护在指定范围造成 $(1) 电属性伤害，目标AP/闪避/行动力/电气抗性下降. 对周围伤害量减少50%. <电荷充电>消耗2层.",
     "areadata": [
       0,
       0.5,
@@ -5517,12 +5517,12 @@
   "RocC_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "H. 유피텔 스트라이크",
+    "name": "H. 球形闪电",
     "img": "AssaultAttack",
     "range": 6,
     "AP": 9,
     "attr": "electric",
-    "description": "指定 对目标造成 $(2) 无视保护 电属性伤害 一定 概率 不可行动状态 造成 解除强化效果. <전하 충전> 중첩을 5 사용하며, 暴击时 伤害量增加.",
+    "description": "无视保护对目标造成 $(2) 电属性伤害，一定概率造成不可行动状态并解除强化效果. <电荷充电>消耗5层, 暴击时伤害量增加.",
     "areadata": [
       5
     ]
@@ -5530,11 +5530,11 @@
   "RocC_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "전자기파 파장",
+    "name": "电磁波波长",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, <전하 충전> 중첩 수에 비례해闪避增加. 적 闪避攻击时, 激活反击.",
+    "description": "回合开始时, 根据<电荷充电>层数获得闪避增加. 闪避攻击时, 激活反击.",
     "areadata": [
       5
     ]
@@ -5542,11 +5542,11 @@
   "RocC_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "전하 最大충전",
+    "name": "最大充能",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "<전하 충전> 중첩이 5 이상인 경우, 防御幕/减伤效果无视命中和 暴击增加. 해당 的状态 冰属性 공격을 맞으면 强化效果해제되며, 不可行动状态 有可能.",
+    "description": "<电荷充电>叠加5以上时, 无视防御幕/减伤效果，命中和暴击增加. 此状态下被冰属性攻击时，强化效果解除, 一定概率陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -5554,11 +5554,11 @@
   "RocC_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "과충전 폭발",
+    "name": "过充爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
-    "description": "死亡时, 对周围造成毁灭 固定 伤害.",
+    "description": "死亡时, 对周围造成毁灭性固定伤害.",
     "areadata": [
       7,
       8,
@@ -5574,12 +5574,12 @@
   "NightChickC_EV9_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "연료 탱크 유폭",
+    "name": "油箱爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
     "attr": "fire",
-    "description": "死亡时, 油箱爆炸 对周围造成毁灭 伤害 解除减伤效果.",
+    "description": "死亡时, 油箱爆炸对周围造成毁灭伤害并解除减伤效果.",
     "areadata": [
       8,
       4,
@@ -5595,7 +5595,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "自己 攻击之前防御和效果抗性大幅增加.",
+    "description": "自己攻击之前防御和效果抗性大幅增加.",
     "areadata": [
       5
     ]
@@ -5603,11 +5603,11 @@
   "RocCGeneratorA_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "전하 충전",
+    "name": "电荷充电",
     "img": "SelfAtkBuff",
     "range": 6,
     "AP": 10,
-    "description": "로크 (最大충전)에게 에너지를 충전해 攻击力和AP 上升.",
+    "description": "为“洛克 (最大充能)”充电，攻击力和AP上升.",
     "areadata": [
       7,
       8,
@@ -5623,11 +5623,11 @@
   "RocCGeneratorA_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "실드 충전",
+    "name": "充电护盾",
     "img": "SelfDefBuff",
     "range": 6,
     "AP": 10,
-    "description": "모든 给友军방어막을 부여하고 有害 效果解除.",
+    "description": "赋予友军防御幕，解除有害效果.",
     "areadata": [
       7,
       8,
@@ -5643,11 +5643,11 @@
   "RocCGeneratorA_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "복원 시스템",
+    "name": "复原系统",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 战斗续行效果 적용됩니다. 该效果해제할 수 없습니다.",
+    "description": "回合开始时, 战斗续行效果激活. 该效果无法被解除.",
     "areadata": [
       5
     ]
@@ -5655,11 +5655,11 @@
   "RocCGeneratorA_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "복원 대기",
+    "name": "复原等待",
     "img": "SelfSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗续行 效果发动时, 4回合内不可行动状态 되며受到伤害 최소화됩니다. 该效果해제할 수 없습니다.",
+    "description": "战斗续行发动时, 4回合内陷入不可行动状态，一定使受到的伤害最小化. 该效果无法被解除.",
     "areadata": [
       5
     ]
@@ -5667,12 +5667,12 @@
   "RocC_EV2_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "S. 블리츠 스톰",
+    "name": "S. 闪电风暴",
     "img": "WideLightning",
     "range": 6,
     "AP": 8,
     "attr": "electric",
-    "description": "在指定范围造成 $(1) 无视保护 电属性伤害 AP/闪避/行动力/전기 抗性 下降.",
+    "description": "无视保护在指定范围造成 $(1) 电属性伤害，AP/闪避/行动力/电气抗性下降.",
     "areadata": [
       8,
       4,
@@ -5684,12 +5684,12 @@
   "RocC_EV2_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "H. 유피텔 스트라이크",
+    "name": "H. 球形闪电",
     "img": "AssaultAttack",
     "range": 6,
     "AP": 9,
     "attr": "electric",
-    "description": "指定 对目标造成 $(2) 无视保护 电属性伤害, 不可行动状态 造成 전기 抗性 减少. 一定 概率 解除强化效果. <전하 충전> 중첩을 3 사용하며, 暴击时 伤害量增加.",
+    "description": "无视保护对目标造成 $(2) 电属性伤害, 使其陷入不可行动状态，电气抗性减少. 一定概率解除强化效果. <电荷充电> 消耗3层, 暴击时伤害量增加.",
     "areadata": [
       5
     ]
@@ -5697,11 +5697,11 @@
   "RocC_EV2_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "전자기파 파장",
+    "name": "电磁波波长",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "<전하 충전> 중첩 수에 비례해 闪避增加, 闪避시 激活反击. 自己的 HP在25% 以下 状态 적을 攻击 때, 闪避추가로增加. 冰属性 攻击被击时, 闪避强化效果解除.",
+    "description": "根据<电荷充电>层数获得闪避增加, 闪避时激活反击. 自己的HP在25%以下状态攻击敌人时, 闪避追加增加. 被冰属性攻击时, 闪避强化效果解除.",
     "areadata": [
       5
     ]
@@ -5709,11 +5709,11 @@
   "RocC_EV2_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "전하 最大충전",
+    "name": "最大充能",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "<전하 충전> 중첩이 5 이상인 경우, 2回合内防御幕/减伤效果无视공격력/命中/暴击/效果抗性增加. 해당 的状态 冰属性 공격을 맞으면 强化效果해제되며, 不可行动/受到伤害 增加状态 有可能.",
+    "description": "<电荷充电> 叠加5以上时, 2回合内无视防御幕/减伤效果，攻击力/命中/暴击/效果抗性增加. 此状态下被冰属性攻击时，强化效果解除, 并一定概率陷入不可行动/受到伤害增加状态.",
     "areadata": [
       5
     ]
@@ -5721,11 +5721,11 @@
   "RocC_EV2_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "과충전 폭발",
+    "name": "过充爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
-    "description": "死亡时, 对周围造成毁灭 固定 伤害.",
+    "description": "死亡时, 对周围造成毁灭性固定伤害.",
     "areadata": [
       7,
       8,
@@ -5741,11 +5741,11 @@
   "Undine_EV1_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "2연장 리볼버 캐논",
+    "name": "扩展左轮",
     "img": "MGShot",
     "range": 3,
     "AP": 5,
-    "description": "리볼버 캐논으로 단일 对目标造成 $(1.2) 伤害, 目标도발하며命中 减少. 目标防御力减少状态时伤害量增加.",
+    "description": "发射左轮枪对目标造成 $(1.2) 伤害, 目标挑衅且命中减少. 目标防御力减少状态时伤害量增加.",
     "areadata": [
       5
     ]
@@ -5753,11 +5753,11 @@
   "Undine_EV1_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "F.F 미사일",
+    "name": "F.F 导弹",
     "img": "Missile",
     "range": 4,
     "AP": 8,
-    "description": "날치 미사일로造成 $(1.8) 伤害. 目标 受到 减伤效果无视, 目标防御力减少상태이거나 경장형이면 伤害量增加.",
+    "description": "发射导弹造成 $(1.8) 伤害. 无视目标减伤效果, 目标防御力减少状态或轻型时伤害量增加.",
     "areadata": [
       5
     ]
@@ -5765,11 +5765,11 @@
   "Undine_EV1_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "우향선회",
+    "name": "右转",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 闪避增加闪避减少效果  解除. 同列아래에 배치된 아군들에게 攻击지원/指定 대상 保护/闪避增加해제 效果赋予. 自己的 闪避增加效果最大2次可叠加.",
+    "description": "攻击时, 闪避增加，闪避减少效果解除. 赋予同列下方的友军攻击支援/指定目标保护/闪避增加效果. 自己的闪避增加效果最大可叠加2次.",
     "areadata": [
       5,
       2
@@ -5778,11 +5778,11 @@
   "Undine_EV1_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "오만과 분노",
+    "name": "傲慢和愤怒",
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "闪避攻击时, 攻击力/暴击/命中/行动力 무작위로增加. 自己 击杀时, 所有友军 闪避强化效果解除 闪避减少受到伤害增加.",
+    "description": "闪避攻击时, 攻击力/暴击/命中/行动力随机增加. 自己击杀时, 所有友军闪避强化效果解除，闪避减少，受到伤害增加.",
     "areadata": [
       7,
       8,
@@ -5798,11 +5798,11 @@
   "Undine_EV2_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "2연장 리볼버 캐논",
+    "name": "扩展左轮",
     "img": "MGShot",
     "range": 3,
     "AP": 6,
-    "description": "리볼버 캐논으로 단일 对目标造成 $(1.4) 伤害, 目标防御和命中减少. 目标挑衅状态时伤害量增加.",
+    "description": "发射左轮枪对目标造成 $(1.4) 伤害, 目标防御和命中减少. 目标挑衅状态时伤害量增加.",
     "areadata": [
       5
     ]
@@ -5810,11 +5810,11 @@
   "Undine_EV2_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "F.F 미사일",
+    "name": "F.F 导弹",
     "img": "Missile",
     "range": 4,
     "AP": 9,
-    "description": "날치 미사일로造成 $(2.1) 伤害. 目标 防御无视, 目标挑衅상태 또는 중장형이면 伤害量增加.",
+    "description": "发射导弹造成 $(2.1) 伤害. 无视目标防御, 目标挑衅状态或者重型时伤害量增加.",
     "areadata": [
       5
     ]
@@ -5822,11 +5822,11 @@
   "Undine_EV2_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "우향선회?",
+    "name": "右转?",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 闪避增加闪避减少效果  解除. 양 옆에 배치된 아군들에게 攻击지원/指定 대상 保护/闪避增加해제 效果赋予. 自己的 闪避增加效果最大2次可叠加.",
+    "description": "攻击时, 闪避增加，闪避减少效果解除. 赋予同列相邻友军攻击支援/指定目标保护/闪避增加效果. 自己的闪避增加效果最大可叠加2次.",
     "areadata": [
       8,
       2
@@ -5835,11 +5835,11 @@
   "Undine_EV2_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "오만과 분노",
+    "name": "傲慢和愤怒",
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "闪避攻击时, 攻击力/暴击/命中/行动力 무작위로增加. 自己 击杀时, 所有友军 闪避强化效果解除 闪避减少受到伤害增加.",
+    "description": "闪避攻击时, 攻击力/暴击/命中/行动力随机增加. 自己击杀时, 所有友军闪避强化效果解除，闪避减少，受到伤害增加.",
     "areadata": [
       7,
       8,
@@ -5855,11 +5855,11 @@
   "Undine_EV3_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "2연장 리볼버 캐논",
+    "name": "扩展左轮",
     "img": "MGShot",
     "range": 3,
     "AP": 4,
-    "description": "리볼버 캐논으로 단일 对目标造成 $(1) 伤害, 目标防御和命中 减少. 目标挑衅状态时伤害量增加.",
+    "description": "发射左轮枪对目标造成 $(1) 伤害, 目标闪避和命中减少. 目标挑衅状态时伤害量增加.",
     "areadata": [
       5
     ]
@@ -5867,11 +5867,11 @@
   "Undine_EV3_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "F.F 미사일",
+    "name": "F.F 导弹",
     "img": "Missile",
     "range": 4,
     "AP": 7,
-    "description": "날치 미사일로造成 $(1.5) 伤害. 目标 闪避强化效果解除, 目标挑衅상태 또는 机动型时伤害量增加.",
+    "description": "发射导弹造成 $(1.5) 伤害. 目标闪避强化效果解除, 目标挑衅状态或机动型时伤害量增加.",
     "areadata": [
       5
     ]
@@ -5879,11 +5879,11 @@
   "Undine_EV3_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "우향선회???",
+    "name": "右转???",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 闪避增加闪避减少效果  解除. 같은 열 위에 배치된 아군들에게 攻击지원/指定 대상 保护/闪避增加해제 效果赋予. 自己的 闪避增加效果最大2次可叠加.",
+    "description": "攻击时, 闪避增加，闪避减少效果解除. 赋予同列上方的友军攻击支援/指定目标保护/闪避增加效果. 自己的闪避增加效果最大可叠加2次.",
     "areadata": [
       8,
       5
@@ -5892,11 +5892,11 @@
   "Undine_EV3_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "오만과 분노",
+    "name": "傲慢和愤怒",
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "闪避攻击时, 攻击力/暴击/命中/行动力 무작위로增加. 自己 击杀时, 所有友军 闪避强化效果解除 闪避减少受到伤害增加.",
+    "description": "闪避攻击时, 攻击力/暴击/命中/行动力随机增加. 自己击杀时, 所有友军闪避强化效果解除，闪避减少，受到伤害增加.",
     "areadata": [
       7,
       8,
@@ -5912,11 +5912,11 @@
   "AMG11AA_EV5_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "攻击개시",
+    "name": "攻击开始",
     "img": "ARShot",
     "range": 5,
     "AP": 4,
-    "description": "기총 射击造成 $(1) 伤害. 目标标记 状态时伤害量 증가하고, 闪避减少.",
+    "description": "射击造成 $(1) 伤害. 目标标记状态时伤害量增加, 闪避减少.",
     "areadata": [
       5
     ]
@@ -5924,11 +5924,11 @@
   "AMG11AA_EV5_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "대공 기총 난사",
+    "name": "反空步枪",
     "img": "WideBeamShot",
     "range": 1,
     "AP": 6,
-    "description": "기총을 난사해造成 $(1) 伤害. 目标闪避减少状态时伤害量 增加, 解除强化效果.",
+    "description": "射击造成 $(1) 伤害. 目标闪避减少状态时伤害量增加, 解除强化效果.",
     "areadata": [
       7,
       4,
@@ -5939,11 +5939,11 @@
   "AMG11AA_EV5_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "대공 레이더 시스템",
+    "name": "反空雷达系统",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 인접 给友军命中/暴击/대 기동형 피해량 增加效果赋予.",
+    "description": "回合开始时, 赋予周围友军命中/暴击/对机动型伤害增加效果.",
     "areadata": [
       7,
       8,
@@ -5958,11 +5958,11 @@
   "AMG11AA_EV5_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "시스템 과부하",
+    "name": "系统过载",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "파괴되면 周围给友军强化 效果解除. 슈퍼 네리(?)의 재촉으로 인한 攻击力 增加效果 3 중첩 이상인 경우, 回合开始时 防御幕/减伤无视 效果 부여됩니다.",
+    "description": "死亡时，解除周围友军强化效果. 如果来自超级涅尔丽(?)的攻击力增加效果叠加3层以上, 回合开始时获得无视防御幕/减伤效果.",
     "areadata": [
       8,
       4,
@@ -5974,11 +5974,11 @@
   "Nereid_EV1_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "벌집 만들기",
+    "name": "制作蜂窝",
     "img": "MGShot",
     "range": 4,
     "AP": 3,
-    "description": "迷你机枪을 射击造成 $(1.5) 伤害. 目标표식으로 설정하고 受到伤害를增加.",
+    "description": "用迷你机枪射击造成 $(1.5) 伤害. 目标指定标记且受到伤害增加.",
     "areadata": [
       5
     ]
@@ -5986,11 +5986,11 @@
   "Nereid_EV1_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "무차별 난사",
+    "name": "扫射",
     "img": "MGWideShot",
     "range": 4,
     "AP": 6,
-    "description": "迷你机枪을 난사해 对目标造成 $(2) 无视保护 伤害. 目标 强化效果解除, 暴击时 伤害量增加.",
+    "description": "迷你机枪扫射无视保护对目标造成 $(2) 伤害. 解除目标强化效果, 暴击时伤害量增加.",
     "areadata": [
       7,
       4,
@@ -6001,11 +6001,11 @@
   "Nereid_EV1_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "덤벼덤벼!",
+    "name": "较量较量!",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "自己的 남은 HP 比例이 적을수록 적에게 주는 피해가 增加, 受到 伤害减少. 效果抗性增加, HP 10% 以下 状态 被击时 激活反击.",
+    "description": "自己的剩余HP比例越小对敌人伤害量增加/受到伤害减少. 效果抗性增加, HP10%以下状态被击时激活反击.",
     "areadata": [
       5
     ]
@@ -6013,11 +6013,11 @@
   "Nereid_EV1_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "전투 과몰입",
+    "name": "战斗和专注",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "전투 불능이 될 경우, HP를 회복하고 전투를 속행합니다. 战斗续行 效果发动时, 攻击力/命中/暴击/行动力 增加防御幕和减伤效果无视.",
+    "description": "陷入濒死时, HP恢复一定数值并继续战斗. 战斗续行发动时, 攻击力/命中/暴击/行动力增加，无视防御幕和减伤效果.",
     "areadata": [
       5
     ]
@@ -6025,11 +6025,11 @@
   "Nereid_EV1_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "네리와 부하들",
+    "name": "涅尔丽与仆从",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "적 攻击时, 부하들에게 명령을 내려 目标 攻击力/命中/AP增加.",
+    "description": "被攻击时, 命令仆从，目标攻击力/命中/AP增加.",
     "areadata": [
       7,
       8,
@@ -6045,11 +6045,11 @@
   "Undine_EV4_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "2연장 리볼버 캐논",
+    "name": "扩展左轮",
     "img": "MGShot",
     "range": 3,
     "AP": 5,
-    "description": "리볼버 캐논으로 단일 对目标造成 $(1.2) 伤害, 目标도발하며 攻击力/暴击 减少. 目标标记 状态时伤害量增加.",
+    "description": "发射左轮枪对目标造成 $(1.2) 伤害, 目标挑衅/攻击力/暴击减少. 目标标记状态时伤害量增加.",
     "areadata": [
       5
     ]
@@ -6057,11 +6057,11 @@
   "Undine_EV4_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "F.F 미사일",
+    "name": "F.F 导弹",
     "img": "Missile",
     "range": 4,
     "AP": 8,
-    "description": "날치 미사일로造成 $(1.8) 防御관통 伤害. 目标标记 状态时伤害量 大幅增加.",
+    "description": "发射导弹造成 $(1.8) 防御穿透伤害. 目标标记状态时伤害量大幅增加.",
     "areadata": [
       5
     ]
@@ -6069,11 +6069,11 @@
   "Undine_EV4_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "우향선회?!",
+    "name": "右转?!",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 闪避增加闪避减少效果  解除. 同列相邻보호기 제외 友军保护, 对目标攻击지원/命中/暴击增加效果赋予. 闪避增加效果3회까지 可叠加.",
+    "description": "攻击时, 闪避增加，闪避减少效果解除. 保护同列相邻保护机以外友军, 赋予目标攻击支援/命中/暴击增加效果. 闪避增加效果最大可叠加3次.",
     "areadata": [
       8,
       5,
@@ -6083,11 +6083,11 @@
   "Undine_EV4_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "오만과 분노",
+    "name": "傲慢和愤怒",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "闪避시, 반격하며 闪避增加效果 解除. 闪避시, 周围的 友军도발해 攻击力/暴击 증가시키지만 命中减少/指定 保护해제/受到伤害 增加效果赋予.",
+    "description": "闪避时, 进行反击但闪避增加效果解除. 闪避时, 煽动周围的友军，使其攻击力/暴击增加，但命中减少/指定保护解除/受到伤害增加.",
     "areadata": [
       7,
       8,
@@ -6102,11 +6102,11 @@
   "Nereid_EV2_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "벌집 만들기",
+    "name": "制作蜂窝",
     "img": "MGShot",
     "range": 4,
     "AP": 5,
-    "description": "迷你机枪을 射击造成 $(1.5) 伤害. 目标标记 状态时, 伤害量 大幅增加.",
+    "description": "用迷你机枪射击造成 $(1.5) 伤害. 目标标记状态时, 伤害量大幅增加.",
     "areadata": [
       5
     ]
@@ -6114,11 +6114,11 @@
   "Nereid_EV2_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "무차별 난사",
+    "name": "扫射",
     "img": "MGWideShot",
     "range": 3,
     "AP": 8,
-    "description": "迷你机枪을 난사해 对目标造成 $(1.25) 伤害. 목표 대상들의 命中/闪避/行动力减少.",
+    "description": "迷你机枪扫射对目标造成 $(1.25) 伤害. 目标的命中/闪避/行动力减少.",
     "areadata": [
       7,
       4,
@@ -6129,11 +6129,11 @@
   "Nereid_EV2_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "덤벼덤벼!",
+    "name": "较量较量!",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "自己的 남은 HP 比例이 적을수록 적에게 주는 피해가 增加, 受到 伤害减少.",
+    "description": "自己的剩余HP比例越小对敌人伤害量增加/受到伤害减少.",
     "areadata": [
       5
     ]
@@ -6141,11 +6141,11 @@
   "Nereid_EV2_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "전투 과몰입",
+    "name": "战斗和专注",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "전투 불능이 될 경우, 1次에 한해 HP를 회복하고 전투를 속행합니다. 战斗续行 效果发动时, 해당 전투 동안 减伤效果无视攻击力增加.",
+    "description": "濒死时, 只有1次恢复一定HP并继续战斗. 战斗续行发动时, 本场战斗中无视减伤效果，攻击力增加.",
     "areadata": [
       5
     ]
@@ -6153,11 +6153,11 @@
   "GigantesDagon_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "심해의 분노",
+    "name": "深海之怒",
     "img": "MeleeAttack",
     "range": 1,
     "AP": 8,
-    "description": "击打目标造成 $(3) 无视保护 伤害. 目标防御力/防御幕/减伤效果无视.",
+    "description": "无视保护击打目标造成 $(3) 伤害. 无视目标防御力/防御幕/减伤效果.",
     "areadata": [
       5
     ]
@@ -6165,11 +6165,11 @@
   "GigantesDagon_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "타이달 어썰트",
+    "name": "潮汐之涌",
     "img": "AssaultAttack",
     "range": 2,
     "AP": 6,
-    "description": "对目标冲锋造成 $(1.5) 伤害. 目标标记 状态时强化效果解除 不可行动状态 만든 후, 向后推1格.",
+    "description": "对目标冲锋造成 $(1.5) 伤害. 目标标记状态时解除强化效果并使其陷入不可行动状态, 向后推1格.",
     "areadata": [
       5
     ]
@@ -6177,11 +6177,11 @@
   "GigantesDagon_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "심해의 거신",
+    "name": "深海巨像",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时防御力/冷气/效果抗性크게 增加, 5回合内行保护/受到 减伤效果 적용됩니다.",
+    "description": "战斗开始时，防御力/冷气/效果抗性大幅增加, 5回合内激活行保护/减伤效果.",
     "areadata": [
       5
     ]
@@ -6189,11 +6189,11 @@
   "GigantesDagon_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "保护전환",
+    "name": "保护转换",
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 2回合内范围内 给友军指定 대상 保护效果赋予.",
+    "description": "攻击时, 2回合内赋予范围内友军指定目标保护效果.",
     "areadata": [
       8,
       9,
@@ -6204,11 +6204,11 @@
   "Sirene_EV1_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "57mm 대공포",
+    "name": "57mm 防空炮",
     "img": "MGShot",
     "range": 5,
     "AP": 5,
-    "description": "대공포를 射击造成 $(1.35) 伤害, 目标指定标记 受到伤害를 증가시키고 闪避减少. 目标为机动型时, 伤害量增加.",
+    "description": "防空炮射击造成 $(1.35) 伤害, 目标指定标记/受到伤害上升/闪避减少. 目标为机动型时, 伤害量增加.",
     "areadata": [
       5
     ]
@@ -6216,11 +6216,11 @@
   "Sirene_EV1_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "포격 지휘",
+    "name": "炮击指挥",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 8,
-    "description": "范围内 友军 AP/行动力/效果 抗性 증가시키고, 对目标걸려있는 有害 效果解除. 추가로, 대상들의攻击支援.",
+    "description": "范围内友军AP/行动力/效果抗性上升, 目标有害效果解除. 此外, 进行攻击支援.",
     "areadata": [
       7,
       8,
@@ -6236,11 +6236,11 @@
   "Sirene_EV1_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "협차 사격",
+    "name": "精密射击",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 范围内 友军的 命中/暴击/防御穿透增加.",
+    "description": "攻击时, 范围内友军的命中/暴击/防御穿透增加.",
     "areadata": [
       7,
       8,
@@ -6255,11 +6255,11 @@
   "Sirene_EV1_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "요격 모드",
+    "name": "拦截模式",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时, AP가 增加受到伤害减少. 아군이 死亡时, AP가 大幅增加.",
+    "description": "战斗开始时, AP增加，受到伤害减少. 友军死亡时, AP大幅增加.",
     "areadata": [
       5
     ]
@@ -6267,11 +6267,11 @@
   "Sirene_EV1_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "관측 포격",
+    "name": "观测炮击",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 攻击지원을 受到 状态时命中/暴击增加.",
+    "description": "回合开始时, 受到攻击支援状态时命中/暴击增加.",
     "areadata": [
       5
     ]
@@ -6279,11 +6279,11 @@
   "Sirene_EV2_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "203mm 연장포",
+    "name": "203mm 连装炮",
     "img": "CannonShot",
     "range": 5,
     "AP": 10,
-    "description": "直射炮击으로 指定 范围造成 $(2) 伤害. 目标标记/无法移动状态时伤害量增加.",
+    "description": "直射炮击对指定范围造成 $(2) 伤害. 目标标记/无法移动状态时伤害量增加.",
     "areadata": [
       8,
       5
@@ -6292,11 +6292,11 @@
   "Sirene_EV2_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "초토화 포격",
+    "name": "焦土化炮击",
     "img": "AirStrike",
     "range": 5,
     "AP": 10,
-    "description": "포격 연사로 指定 范围造成 $(1.5) 无视保护 伤害. 목표 지점 주변은 伤害量 25%减少, 目标轻型/중장형이면 피해량 增加1칸 向后推一格. 使用技能时, 2回合内행동 불가가 有可能.",
+    "description": "连续炮击无视保护对指定范围造成 $(1.5) 伤害. 对周围伤害量减少25%, 目标轻型/重型时伤害量增加，向后推一格. 使用技能时, 2回合内陷入不可行动状态.",
     "areadata": [
       0.75,
       0.75,
@@ -6312,11 +6312,11 @@
   "Sirene_EV2_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "협차 사격",
+    "name": "精密射击",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 范围内 友军的 命中/暴击/防御穿透增加.",
+    "description": "攻击时, 范围内友军的命中/暴击/防御穿透增加.",
     "areadata": [
       7,
       8,
@@ -6331,11 +6331,11 @@
   "Sirene_EV2_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "포격 모드",
+    "name": "炮击模式",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 攻击力/防御관통이增加.",
+    "description": "回合开始时, 攻击力/防御穿透增加.",
     "areadata": [
       5
     ]
@@ -6343,11 +6343,11 @@
   "Sirene_EV2_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "관측 포격",
+    "name": "观测炮击",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 攻击지원을 受到 状态时命中/暴击增加, 防御幕/减伤效果无视.",
+    "description": "回合开始时, 受到攻击支援状态时命中/暴击增加, 无视防御幕/减伤效果.",
     "areadata": [
       5
     ]
@@ -6436,11 +6436,11 @@
   "BigChickMG_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "파쇄 미사일",
+    "name": "破碎导弹",
     "img": "CruiseMissile",
     "range": 6,
     "AP": 7,
-    "description": "1回合 후 착탄하며,造成 $(3) 无视保护 피해를 주는 导弹 발사합니다. 目标경장형 또는 无法移动时, 伤害量 大幅增加.",
+    "description": "发射导弹，下1回合后着陆, 无视保护造成 $(3) 伤害. 目标轻型或无法移动时, 伤害量大幅增加.",
     "areadata": [
       5
     ]
@@ -6448,11 +6448,11 @@
   "BigChickMG_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "집속 微型导弹",
+    "name": "集束微型导弹",
     "img": "MultiMissile",
     "range": 4,
     "AP": 3,
-    "description": "在指定范围造成 $(0.25) 无视保护 피해를 주는 집속 마이크로 导弹 발사합니다. 3回合内攻击대상들의 闪避减少. 200%의 추가 命中보정이 적용됩니다.",
+    "description": "无视保护在指定范围造成 $(0.25) 伤害. 3回合内目标闪避减少. 此技能有200%命中补偿.",
     "areadata": [
       8,
       4,
@@ -6464,11 +6464,11 @@
   "BigChickMG_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "고속 장전 장치",
+    "name": "高速加载",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击후, 3回合内行动力 大幅增加.",
+    "description": "攻击后, 3回合内行动力大幅增加.",
     "areadata": [
       5
     ]
@@ -6476,11 +6476,11 @@
   "BigChickMG_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "MOP 탄두",
+    "name": "MOP 弹头",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "防御관통이大幅 增加, 攻击目标 防御幕和减伤效果无视.",
+    "description": "防御穿透大幅增加, 攻击时无视目标防御幕和减伤效果.",
     "areadata": [
       5
     ]
@@ -6488,11 +6488,11 @@
   "BigChickMG_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "레이더 오류",
+    "name": "雷达错误",
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "电属性 被击时, 2回合内命中 大幅减少.",
+    "description": "被电属性攻击时, 2回合内命中大幅减少.",
     "areadata": [
       5
     ]
@@ -6504,7 +6504,7 @@
     "img": "Missile",
     "range": 4,
     "AP": 4,
-    "description": "강화 화학탄을 射击造成 $(0.75) 伤害. 3回合内对目标持续固定 伤害, 一定 概率 所有属性 抵抗和 行动力减少. ",
+    "description": "强化化学弹射击造成 $(0.75) 伤害. 3回合内使目标受到持续固定伤害, 一定概率所有属性抵抗和行动力减少. ",
     "areadata": [
       5
     ]
@@ -6512,11 +6512,11 @@
   "NightChickCMS_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "집속 화학탄 발사",
+    "name": "集束化学弹",
     "img": "Missile",
     "range": 4,
     "AP": 8,
-    "description": "집속 화학탄을 射击造成 $(2) 伤害. 3回合内对目标持续固定 伤害, 一定 概率 解除强化效果.",
+    "description": "集中射击造成 $(2) 伤害. 3回合内使目标受到持续固定伤害, 一定概率解除强化效果.",
     "areadata": [
       5
     ]
@@ -6528,7 +6528,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 与自己相邻友军 所有抗性上升.",
+    "description": "回合开始时, 与自己相邻友军所有抗性上升.",
     "areadata": [
       8,
       4,
@@ -6540,11 +6540,11 @@
   "Stalker_EV2_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "초精密저격",
+    "name": "精密狙击",
     "img": "Chargeshot",
     "range": 6,
     "AP": 4,
-    "description": "레일건 用狙击造成 $(0.8) 保护/防御幕/减伤无视 伤害.",
+    "description": "用磁轨炮狙击造成 $(0.8) 伤害，无视保护/防御幕/减伤效果.",
     "areadata": [
       5
     ]
@@ -6552,11 +6552,11 @@
   "Stalker_EV2_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "조준 개시",
+    "name": "瞄准开始",
     "img": "SelfAtkBuff",
     "range": 6,
     "AP": 4,
-    "description": "레일건을 조준해, 다음 공격이 치명타로 적용되며 一定 回合内命中 大幅增加.",
+    "description": "用磁轨炮瞄准, 下次攻击必定暴击，一定回合内命中大幅增加.",
     "areadata": [
       5
     ]
@@ -6564,11 +6564,11 @@
   "Stalker_EV2_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "매복 공격",
+    "name": "埋伏攻击",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "후열에 있는 경우, 受到 伤害减少.",
+    "description": "在后列时, 受到伤害减少.",
     "areadata": [
       5
     ]
@@ -6576,11 +6576,11 @@
   "Stalker_EV2_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "영거리 저격",
+    "name": "近距离狙击",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "전열에 있는 경우, 攻击力 大幅增加.",
+    "description": "在前列时, 攻击力大幅增加.",
     "areadata": [
       5
     ]
@@ -6588,11 +6588,11 @@
   "Stalker_EV2_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "리액터 대폭발",
+    "name": "反应堆爆炸",
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
-    "description": "死亡时, 리액터가 폭발에 주변에 매우 높은 固定 伤害.",
+    "description": "死亡时, 反应堆爆炸对周围友军造成毁灭性固定伤害.",
     "areadata": [
       7,
       8,
@@ -6607,11 +6607,11 @@
   "JuggernautP_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "스매셔 펀치",
+    "name": "粉碎重击",
     "img": "MeleeAttack",
     "range": 1,
     "AP": 10,
-    "description": "击打目标造成 $(3) 伤害, 一定 概率 陷入不可行动状态.",
+    "description": "击打目标造成 $(3) 伤害, 一定概率使其陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -6619,11 +6619,11 @@
   "JuggernautP_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "방벽 무너뜨리기",
+    "name": "击溃屏障",
     "img": "AssaultAttack",
     "range": 2,
     "AP": 9,
-    "description": "对目标돌진해造成 $(2) 伤害, 解除减伤效果 向后推1格.",
+    "description": "对目标冲击造成 $(2) 伤害, 解除减伤效果并向后推1格.",
     "areadata": [
       5
     ]
@@ -6631,11 +6631,11 @@
   "JuggernautP_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "호위 경보",
+    "name": "护卫警报",
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "友军死亡时, 防御태세转换为 行保护和列保护效果激活.",
+    "description": "友军死亡时, 转换为防御模式，激活行保护和列保护效果.",
     "areadata": [
       5
     ]
@@ -6643,11 +6643,11 @@
   "JuggernautP_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "고밀도 장갑",
+    "name": "高密度涂层",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时,防御力이增加. HP 25% 이하가 될 경우, 防御力추가로增加.",
+    "description": "回合开始时,防御力增加. HP25%以下时, 防御力进一步增加.",
     "areadata": [
       5
     ]
@@ -6997,11 +6997,11 @@
   "MammothW_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "확산 포격",
+    "name": "扩散炮击",
     "img": "CannonShotWide",
     "range": 2,
     "AP": 6,
-    "description": "炮击 指定 范围造成 $(1) 伤害. 目标闪避/防御力 减少状态时伤害量增加.",
+    "description": "炮击指定范围造成 $(1) 伤害. 目标闪避/防御力减少状态时伤害量增加.",
     "areadata": [
       7,
       4,
@@ -7012,11 +7012,11 @@
   "MammothW_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "클러스터 캐논",
+    "name": "集群加农",
     "img": "CannonShotDelay",
     "range": 6,
     "AP": 6,
-    "description": "1回合 뒤에 착탄하는 炮击 指定 范围造成 $(1.35) 无视保护 伤害. 목표 지점은 50% 피해만 赋予. 目标标记/无法移动状态时伤害量增加.",
+    "description": "发射下1回合后着陆的炮弹，无视保护对指定范围造成 $(1.35) 伤害. 中心只受到50%伤害. 目标标记/无法移动状态时伤害量增加.",
     "areadata": [
       0,
       1,
@@ -7032,11 +7032,11 @@
   "MammothW_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "설원 위장",
+    "name": "雪原伪装",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "冰属性 抗性 增加, <酷寒> 效果适用的场合防御力/效果抗性增加.",
+    "description": "冰属性抗性增加, <酷寒>效果适用的场合防御力/效果抗性增加.",
     "areadata": [
       5
     ]
@@ -7044,11 +7044,11 @@
   "MammothW_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "포신 급속 냉각",
+    "name": "炮管快速冷却",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击후, 포신을 냉각해 3回合内行动力增加.",
+    "description": "攻击后, 炮管进行冷却3回合内行动力增加.",
     "areadata": [
       5
     ]
@@ -7113,11 +7113,11 @@
   "Frostbite_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "파쇄탄 발사",
+    "name": "碎片射击",
     "img": "ShotGun",
     "range": 4,
     "AP": 5,
-    "description": "指定 对目标造成 $(1.2) 伤害. 无视目标防御幕/减伤效果. 目标빙결 状态 경우, 伤害量增加.",
+    "description": "指定目标造成 $(1.2) 伤害. 无视目标防御幕/减伤效果. 目标冻结状态时, 伤害量增加.",
     "areadata": [
       5
     ]
@@ -7125,12 +7125,12 @@
   "Frostbite_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "냉각제 분사",
+    "name": "寒冬之息",
     "img": "WideIceShot",
     "range": 4,
     "AP": 7,
     "attr": "ice",
-    "description": "在指定范围造成 $(0.5) 无视保护 冷气 伤害. 3回合内대상들은 持续冷气 피해를 입으며, 50% 概率 闪避/行动力减少. 125%의 命中보정이 적용됩니다.",
+    "description": "无视保护在指定范围造成 $(0.5) 冷气伤害. 3回合内目标受到持续冷气伤害, 50%概率闪避/行动力减少. 此技能拥有125%命中补偿.",
     "areadata": [
       8,
       4,
@@ -7142,11 +7142,11 @@
   "Frostbite_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "기온 저하",
+    "name": "寒冬来袭",
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, <침수> 状态 바이오로이드들에게 50% 概率 受到伤害 增加/效果抗性/AP/闪避减少状态 적용됩니다.",
+    "description": "回合开始时, <浸水>状态的生物劳埃德50%概率陷入受到伤害增加/效果抗性/AP/闪避减少状态.",
     "areadata": [
       7,
       8,
@@ -7166,7 +7166,7 @@
     "img": "WideIceShot",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 范围内 给友军<한랭지 적응> 效果 있으면 目标 攻击力/命中/闪避/行动力增加.",
+    "description": "回合开始时, 赋予范围内拥有<酷寒适应>(译者注:雪地铁虫的自带冷气抗性)效果的友军攻击力/命中/闪避/行动力增加.",
     "areadata": [
       7,
       8,
@@ -7182,11 +7182,11 @@
   "Frostbite_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "강화 빙결 코팅",
+    "name": "强化冰冻涂层",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时, 防御力大幅增加. 该效果强化效果 해제로 해제할 수 없으며,火焰属性 攻击被击时解除.",
+    "description": "战斗开始时, 防御力大幅增加. 该效果强化效果无法被解除, 只有被火焰属性攻击时解除.",
     "areadata": [
       5
     ]
@@ -7248,7 +7248,7 @@
     "img": "TeamAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "浸水状态回合开始时, 与自己周围友军行动力减少，10%概率陷入不可行动状态.",
+    "description": "浸水状态回合开始时, 自己与周围友军行动力减少，10%概率陷入不可行动状态.",
     "areadata": [
       7,
       8,
@@ -7264,11 +7264,11 @@
   "NightChick_C_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "칙 机枪",
+    "name": "齐克机枪",
     "img": "Shot",
     "range": 5,
     "AP": 4,
-    "description": "对目标造成 $(1.1) 伤害. 暴击时, 75% 概率 目标 解除强化效果 5回合内闪避减少 受到伤害를增加.",
+    "description": "对目标造成 $(1.1) 伤害. 暴击时, 75%概率解除目标强化效果，5回合内闪避减少，受到伤害를增加.",
     "areadata": [
       5
     ]
@@ -7276,11 +7276,11 @@
   "NightChick_C_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "칙 机枪 속사",
+    "name": "齐克机枪速射",
     "img": "Snipe",
     "range": 6,
     "AP": 3,
-    "description": "对目标造成 $(0.75) 无视保护 伤害. 目标为机动型时 解除强化效果 伤害量 증가하고, 2回合内陷入不可行动状态.",
+    "description": "无视保护对目标造成 $(0.75) 伤害. 目标为机动型时解除强化效果，伤害量增加, 使其2回合内陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -7288,11 +7288,11 @@
   "NightChick_C_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "칙 포메이션",
+    "name": "齐克编队",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "与自己同列相邻友军 대 기동형 피해량/命中/闪避/行动力增加.",
+    "description": "与自己同列相邻友军对机动型伤害/命中/闪避/行动力增加.",
     "areadata": [
       8,
       2
@@ -7301,11 +7301,11 @@
   "NightChick_C_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "칙 복원 시스템",
+    "name": "齐克恢复系统",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 나이트 칙 실더???의 <복원 시스템 제어> 效果받는 状态时效果抗性增加, 战斗续行效果 적용됩니다. <복원 시스템 제어> 的状态 战斗续行 시, 영구 적용되는 战斗续行인  <칙 영구 복원> 状态 有可能. <칙 영구 복원> 状态 回合开始时, 攻击力/命中/暴击/闪避/行动力增加. 해당 효과들은 강화 해제로 효과로는 해제되지 않습니다.",
+    "description": "回合开始时, 受到奈齐克盾卫???的<恢复系统控制>效果时效果抗性增加, 战斗续行效果激活. <恢复系统控制>状态下战斗续行发动时, 变为永久激活的战斗续行<齐克永久恢复>状态. <齐克永久恢复>状态回合开始时, 攻击力/命中/暴击/闪避/行动力增加. 除非被增益效果解除，否则此效果不会被解除.",
     "areadata": [
       5
     ]
@@ -7313,11 +7313,11 @@
   "NightChick_C_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "칙 복원 시스템 오류",
+    "name": "齐克恢复系统错误",
     "img": "SelfDefDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, <복원 시스템 오류> 상태면受到伤害 增加战斗续行效果 제거됩니다.",
+    "description": "回合开始时, 处于<恢复系统错误>状态时受到伤害增加，战斗续行效果解除.",
     "areadata": [
       5
     ]
@@ -7325,11 +7325,11 @@
   "NightChickM_C_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "칙 미사일",
+    "name": "齐克导弹",
     "img": "Missile",
     "range": 4,
     "AP": 5,
-    "description": "对目标造成 $(1.2) 伤害. 暴击时, 75% 概率 目标 解除强化效果 5回合内防御 减少 受到伤害를增加.",
+    "description": "对目标造成 $(1.2) 伤害. 暴击时, 75%概率目标解除强化效果，5回合内防御减少，受到伤害를增加.",
     "areadata": [
       5
     ]
@@ -7337,11 +7337,11 @@
   "NightChickM_C_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "풀 오픈 칙 미사일",
+    "name": "齐克导弹全开",
     "img": "MultiMissile",
     "range": 5,
     "AP": 8,
-    "description": "对目标造成 $(1.2) 无视保护 伤害. 目标중장형일 如果 解除强化效果 伤害量 증가하고, 2回合内防御力减少/陷入不可行动状态.",
+    "description": "无视保护对目标造成 $(1.2) 伤害. 目标重型时解除强化效果，伤害量增加, 2回合内防御力减少/陷入不可行动状态.",
     "areadata": [
       8,
       4,
@@ -7353,11 +7353,11 @@
   "NightChickM_C_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "칙 포메이션 (런쳐)",
+    "name": "齐克编队 (发射器)",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "자신 앞/뒤에 相邻友军 攻击力/暴击/行动力增加.",
+    "description": "前后相邻友军攻击力/暴击/行动力增加.",
     "areadata": [
       4,
       6
@@ -7366,11 +7366,11 @@
   "NightChickM_C_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "칙 복원 시스템",
+    "name": "齐克恢复系统",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 나이트 칙 실더???의 <복원 시스템 제어> 效果받는 状态时效果抗性增加, 战斗续行效果 적용됩니다. <복원 시스템 제어> 的状态 战斗续行 시, 영구 적용되는 战斗续行인  <칙 영구 복원> 状态 有可能. <칙 영구 복원> 状态 回合开始时, 攻击力/命中/暴击/闪避/行动力增加. 해당 효과들은 강화 해제로 효과로는 해제되지 않습니다.",
+    "description": "回合开始时, 受到奈齐克盾卫???的<恢复系统控制>效果时效果抗性增加, 战斗续行效果激活. <恢复系统控制>状态下战斗续行发动时, 变为永久激活的战斗续行<齐克永久恢复>状态. <齐克永久恢复> 状态回合开始时, 攻击力/命中/暴击/闪避/行动力增加. 除非被增益效果解除，否则此效果不会被解除.",
     "areadata": [
       5
     ]
@@ -7378,11 +7378,11 @@
   "NightChickM_C_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "칙 복원 시스템 오류",
+    "name": "齐克恢复系统错误",
     "img": "SelfDefDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, <복원 시스템 오류> 상태면受到伤害 增加战斗续行效果 제거됩니다.",
+    "description": "回合开始时, 处于<恢复系统错误>状态时受到伤害增加，战斗续行效果解除.",
     "areadata": [
       5
     ]
@@ -7390,11 +7390,11 @@
   "NightChickS_C_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "칙 마무리 강타",
+    "name": "齐克最终袭击",
     "img": "MeleeAttack",
     "range": 5,
     "AP": 4,
-    "description": "对目标造成 $(1.5) 无视保护 伤害. 目标<나이트 칙?> 또는 <나이트 칙 런쳐??>의 有害 效果 적용된 状态时强化效果解除 伤害量 大幅增加.",
+    "description": "无视保护对目标造成 $(1.5) 伤害. 目标处于<奈齐克?>或<奈齐克发射器??>的有害效果状态时解除强化效果，伤害量大幅增加.",
     "areadata": [
       5
     ]
@@ -7402,11 +7402,11 @@
   "NightChickS_C_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "칙 업그레이드 준비",
+    "name": "齐克升级准备",
     "img": "ShieldWall",
     "range": 6,
     "AP": 8,
-    "description": "5回合内目标指定 保护 <칙 업그레이드 준비> 效果 적용됩니다. <칙 업그레이드 준비> 상태的目标다음 라운드부터 <칙 업그레이드> 效果받아 攻击力/命中/暴击/闪避/行动力增加.",
+    "description": "5回合内目标指定保护，赋予<齐克升级准备>效果. 获得<齐克升级准备>的目标下回合获得<齐克升级>效果，攻击力/命中/暴击/闪避/行动力增加.",
     "areadata": [
       5
     ]
@@ -7414,11 +7414,11 @@
   "NightChickS_C_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "칙 방패 방어술 (고급)",
+    "name": "齐克盾牌防御 (高级)",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 모든 抗性 增加有害 效果解除. 被击时, <칙 방패 올리기> 效果 발동해 2回合内防御力增加. <칙 방패 올리기>防御力 중첩이 7 이상인 的状态 추가 被击时, 此效果解除 해당 回合内해제 불가능한 伤害 최소화/反击效果 적용됩니다.",
+    "description": "回合开始时, 所有抗性增加/有害效果解除. 被击时, <齐克盾牌提升>效果发动，2回合内防御力增加. <齐克盾牌提升>防御力叠加7的状态下被击时, 此效果解除，该回合内激活伤害最小化/反击效果.",
     "areadata": [
       5
     ]
@@ -7426,11 +7426,11 @@
   "NightChickS_C_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "칙 복원 시스템 제어",
+    "name": "齐克恢复系统控制",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时, 周围아군들에게 <칙 복원 시스템> 效果 적용됩니다. 回合开始时, <칙 방패 올리기>중첩이 7 이면 <복원 시스템 오류> 状态 变成 周围友军 <칙 복원 시스템>을 解除. <칙 복원 시스템>은 自己 <복원 시스템 오류> 状态 아니면 回合开始时, 다시 활성화됩니다.",
+    "description": "战斗开始时, 赋予周围友军<齐克恢复系统>效果. 回合开始时, <齐克盾牌提升>叠加7时，周围友军<齐克恢复系统>解除，变成<恢复系统错误>状态. 除非自己处于<恢复系统错误>状态，否则<齐克恢复系统>状态回合开始时再次激活.",
     "areadata": [
       7,
       8,
@@ -7446,11 +7446,11 @@
   "NightChickS_C_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "칙 업그레이드",
+    "name": "齐克升级",
     "img": "SelfDefDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, <칙 업그레이드 준비> 状态 공격기와 지원기의 攻击力/命中/闪避/暴击/行动力增加. 攻击力 업그레이드가 4단계 이상인 경우, 目标 공격은防御力/防御幕/减伤效果无视. 目标보호기일 경우, 强化效果적용되지 않고受到伤害大幅 增加强化效果解除.",
+    "description": "回合开始时, <齐克升级准备>状态的攻击机/支援机的攻击力/命中/闪避/暴击/行动力增加. 攻击力叠加4以上时, 获得无视防御/防御幕/减伤效果. 如果目标是保护机时, 此技能的强化效果不生效并且使其受到伤害大幅增加，强化效果解除.",
     "areadata": [
       7,
       8,
@@ -7466,11 +7466,11 @@
   "EmperorChickSpCH_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "칙 머신캐논",
+    "name": "机炮加农",
     "img": "MGShot",
     "range": 5,
     "AP": 5,
-    "description": "대구경 기관포로造成 $(1) 伤害, 对目标무작위 방해 效果赋予.",
+    "description": "使用大口径机关炮造成 $(1) 伤害, 赋予目标随机干扰效果.",
     "areadata": [
       5
     ]
@@ -7478,11 +7478,11 @@
   "EmperorChickSpCH_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "분노의 칙 파이널 어택",
+    "name": "狂怒终结一击",
     "img": "WideBeamShot",
     "range": 6,
     "AP": 10,
-    "description": "끓어오르는 분노를 소모하여 중장형을 선 타겟으로 전 무장을 射击目标范围造成 $(1.5) 伤害. 목표 중심점 밖일수록 伤害减少.",
+    "description": "对重型目标发泄所有怒火，使用全副武装射击目标范围造成 $(1.5) 伤害. 离中心越远伤害减少越多.",
     "areadata": [
       0.5,
       0.75,
@@ -7498,11 +7498,11 @@
   "EmperorChickSpCH_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "낙오자",
+    "name": "陨落者",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "철충들이 낙오(파괴)될 때마다 <복수심>이 적용 되고 낙오한 철충이 10마리가 될 시 <끓어오르는 분노> 状态 <분노의 칙 파이널 어택> 스킬을 사용합니다. 적 군이 死亡时 <사라진 분노>가 적용 되고 3回合内철충들이 낙오(파괴)되더라도 <복수심>이 발동되지 않습니다.<br><br>복수심 : 攻击力/防御力/적중률 증가<br>끓어오르는 분노 : 해당 状态 적용 되있을 시 <분노의 칙 파이널 어택> 스킬 사용<br>사라진 분노 : 攻击力/防御力 减少      낙오자 발생 : 철충들이 낙오(파괴) 된 상태",
+    "description": "每当铁虫陨落(摧毁)，叠加<复仇>效果，当叠加10层时进入<狂愤>状态并使用<狂怒终结一击>. 敌军死亡时，变为<解恨>状态，3回合内即使铁虫陨落(摧毁)也不会叠加<复仇>.<br><br>复仇 : 攻击力/防御力/命中率增加<br>狂愤 : 此状态时使用<狂怒终结一击><br>解恨 : 攻击力/防御力减少      发生陨落 : 铁虫陨落(摧毁)",
     "areadata": [
       5
     ]
@@ -7510,11 +7510,11 @@
   "EmperorChickSpCH_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "지휘 집중",
+    "name": "集中指挥",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时 철충들을 일사불란하게 지휘하기 위해<br><지휘 집중>이 적용 有可能.<br><br>지휘 집중 : 해제 불가의 有害 效果抗性 적용",
+    "description": "回合开始时指挥铁虫<br>激活<集中指挥>.<br><br>集中指挥 : 赋予不可解除的效果抗性",
     "areadata": [
       5
     ]
@@ -7522,11 +7522,11 @@
   "EmperorChickSpCH_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "명령",
+    "name": "命令",
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时 주위의 모든 철충들에게 쓰러져도 다시 일어날 수 있도록 <근성>을 부여하고 一定 概率 <攻击명령>을 내립니다.<br><br>근성 : 해제 불가의 战斗续行 효과<br>攻击명령 : 高概率  防御관통/防御幕 无视/减伤无视 效果 적용",
+    "description": "回合开始时，赋予周围所有铁虫<韧性>效果，当它们陨落时一定概率赋予<攻击命令>.<br><br>韧性 : 激活不可解除的战斗续行<br>攻击命令 : 获得高概率防御穿透/无视防御幕/减伤效果",
     "areadata": [
       7,
       8,
@@ -7541,11 +7541,11 @@
   "NightChickSpCH_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "机枪 견제 사격",
+    "name": "机枪牵制射击",
     "img": "ARShot",
     "range": 6,
     "AP": 4,
-    "description": "机枪 견제 射击造成 $(1) 伤害 防御 3回合内减少시킵니다.",
+    "description": "机枪射击造成 $(1) 伤害，使其防御3回合内减少.",
     "areadata": [
       5
     ]
@@ -7553,11 +7553,11 @@
   "NightChickSpCH_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "机枪 연사",
+    "name": "机枪倾泻",
     "img": "ARShot",
     "range": 1,
     "AP": 6,
-    "description": "机枪조준 사격해造成 $(1.2) 伤害. 3回合内受到伤害 增加状态造成.",
+    "description": "机枪倾泻子弹造成 $(1.2) 伤害. 使其陷入3回合内受到伤害增加状态.",
     "areadata": [
       5
     ]
@@ -7565,11 +7565,11 @@
   "NightChickSpCH_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "근성",
+    "name": "韧性",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "솔져 칙들은 낙오(파괴) 되더라도 칙 커맨더가 존재한다면 <근성>으로 다시 일어나 싸웁니다.<br><br>근성 : 해제 불가의 战斗续行 효과",
+    "description": "齐克士兵即使陨落(摧毁)也会由于<韧性>效果继续战斗.<br><br>韧性 : 不可解除的战斗续行",
     "areadata": [
       5
     ]
@@ -7577,11 +7577,11 @@
   "NightChickSpCH_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "호위",
+    "name": "护卫",
     "img": "Move",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时 칙 커맨더의 명령을 따르기 위해 <명령 집중>이 적용 되고 <攻击명령>을 받기 전까지 칙 커맨더를 호위하기 위해 주위를 돌아다니다가 간혹 <과부하>에 걸립니다.<br><br>명령 집중 : 해제 불가의 有害 效果抗性 적용<br>과부하 : 스스로에게 一定량 피해",
+    "description": "回合开始时，直到接收到<攻击指令>为止，遵守<集中指令>环绕司令，有时会陷入<过载>状态.<br><br>集中指令 : 不可解除的效果抗性<br>过载 : 受到固定伤害",
     "areadata": [
       5
     ]
@@ -7589,11 +7589,11 @@
   "NightChickSpCH_N_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "희생",
+    "name": "牺牲",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "전열에 있는 如果 自己的 몸을 바쳐 칙 커맨더를 보호할 수 있도록 행 보호가 적용 有可能.",
+    "description": "激活行保护以便致力于用自己的身体保护司令.",
     "areadata": [
       5
     ]
@@ -7814,11 +7814,11 @@
   "Stalker_EW_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "저격",
+    "name": "狙击",
     "img": "Chargeshot",
     "range": 6,
     "AP": 4,
-    "description": "레일건 用狙击造成 $(1) 伤害 공격이 命中시 高概率  2回合内不可行动状态 有可能.",
+    "description": "用磁轨炮狙击造成 $(1) 伤害，命中时高概率使其陷入2回合内不可行动状态.",
     "areadata": [
       5
     ]
@@ -7830,7 +7830,7 @@
     "img": "SelfAtkBuff",
     "range": 6,
     "AP": 4,
-    "description": "磁轨炮充能，下次攻击必定暴击 一定 回合内攻击力 大幅增加.",
+    "description": "磁轨炮充能，下次攻击必定暴击一定回合内攻击力大幅增加.",
     "areadata": [
       5
     ]
@@ -7838,11 +7838,11 @@
   "Stalker_EW_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "리액터 충전",
+    "name": "反应堆充电",
     "img": "Scan",
     "range": 0,
     "AP": 0,
-    "description": "每回合마다 리액터가 충전이 变成 防御관통 效果 增加但 4 중첩을 넘을 如果 리액터 초기화 状态 变成 모든 强化效果解除1回合内不可行动状态 有可能.",
+    "description": "每回合为反应堆充电，获得防御穿透增加效果，但叠加4以上时变为初始状态，且解除强化效果，1回合内陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -7850,11 +7850,11 @@
   "Stalker_EW_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "약점 포착",
+    "name": "抓住弱点",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "攻击目标 HP越低주는 피해增加.",
+    "description": "攻击目标HP越低伤害量增加.",
     "areadata": [
       5
     ]
@@ -7862,11 +7862,11 @@
   "Stalker_EW_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "리액터 과충전",
+    "name": "反应堆过充",
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "전기 공격에 피격 당할 시 2回合内攻击力 大幅减少 적용 중인 리액터 충전 效果해제 합니다.",
+    "description": "被电属性攻击时，2回合内攻击力大幅减少，关闭反应堆充电效果.",
     "areadata": [
       5
     ]
@@ -7874,11 +7874,11 @@
   "Predator_EW_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "후려치기",
+    "name": "拍击",
     "img": "MeleeAttack",
     "range": 1,
     "AP": 3,
-    "description": "적 들을 猛击$(1) 伤害, 1格向后推 一定 概率 2回合内不可行动陷入 속성을 흡수한 상태라면 对目标해당 속성을 방출하여 持续伤害.",
+    "description": "对头猛击造成 $(1) 伤害, 向后推1格，一定概率使其陷入2回合内不可行动状态，如果处于吸收属性状态，对目标造成对应属性的持续伤害.",
     "areadata": [
       8,
       5,
@@ -7888,11 +7888,11 @@
   "Predator_EW_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "오염액",
+    "name": "污染物",
     "img": "TeamDefDeBuff",
     "range": 3,
     "AP": 3,
-    "description": "오염액对目标造成 $(0.5) 伤害, 2回合内오염  状态造成. 오염 상태的目标防御和行动力减少, 受到持续物理伤害. 无视保护效果.",
+    "description": "污染物对目标造成 $(0.5) 伤害, 使其2回合内陷入污染状态. 污染状态的目标防御和行动力减少, 受到持续物理伤害. 无视保护效果.",
     "areadata": [
       4,
       5,
@@ -7902,11 +7902,11 @@
   "Predator_EW_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "속성 흡수",
+    "name": "属性吸收",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "속성 공격에 被击时 3回合内해당 속성을 흡수하여 해당 속성의 저항력이 增加但 부작용으로 특정 속성의 저항력이 大幅减少.<br>火属性 흡수 시:火焰 저항력 소폭 증가, 冷气 저항력 대폭 감소<br>冰属性 흡수 시: 冷气 저항력 소폭 증가, 전기 저항력 대폭 감소<br>电属性 흡수 시: 전기 저항력 소폭 증가,火焰 저항력 대폭 감소",
+    "description": "被属性技能攻击时，3回合内吸收属性使该属性抗性增加，但副作用是其他属性抗性大幅减少.<br>火属性吸收后:火焰抗性略微增加, 冷气大幅降低<br>冰属性吸收后: 冷气抗性略微增加, 电气大幅降低<br>电属性吸收后: 电气抗性略微增加, 火焰大幅降低",
     "areadata": [
       5
     ]
@@ -7914,11 +7914,11 @@
   "Predator_EW_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "오염액 누출",
+    "name": "污染物泄漏",
     "img": "TeamDefDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "HP在50%以下时 오염액이 누출되어 적군 전체의火焰,냉기,电属性 저항력을 减少.",
+    "description": "HP在50%以下时，污染物泄漏所有敌军火焰/冷气/电属性抗性减少.",
     "areadata": [
       7,
       8,
@@ -7934,11 +7934,11 @@
   "Predator_EW_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "保护본능",
+    "name": "保护本能",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "적에게 攻击당할 시 속성 흡수 부작용 效果제외한 자신에게 걸려있는 有害 效果해제 합니다.",
+    "description": "敌军攻击时，吸收一切有害效果，除自己造成的有害效果以外全部解除.",
     "areadata": [
       5
     ]
@@ -7950,7 +7950,7 @@
     "img": "AssaultAttack",
     "range": 4,
     "AP": 4,
-    "description": "利爪冲击으로 目标和바로 身后对目标造成 $(1) 伤害. 5回合内攻击目标 防御 减少. 最大5次可叠加.",
+    "description": "利爪冲击对目标和目标身后造成 $(1) 伤害. 5回合内攻击目标防御减少. 最大可叠加5次.",
     "areadata": [
       4,
       5
@@ -7964,7 +7964,7 @@
     "range": 1,
     "AP": 6,
     "attr": "fire",
-    "description": "使用指甲爆弹射击目标列造成 $(1.4) 伤害 目标向后推一格. 攻击目标 2回合内命中减少.",
+    "description": "使用指甲爆弹射击目标列造成 $(1.4) 伤害，目标向后推一格. 攻击目标2回合内命中减少.",
     "areadata": [
       8,
       5,
@@ -7990,7 +7990,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "피격 당할 시 흥분 상태에 빠져 3回合内攻击力 증가하고 5중첩 이상이 될 시 2回合内회심의 반격 준비 태세(회피율 대폭 상승)를 갖춥니다.",
+    "description": "피격 당할 시 흥분 상태에 빠져 3回合内攻击力 增加 5중첩 이상이 될 시 2回合内회심의 반격 준비 태세(회피율 대폭 상승)를 갖춥니다.",
     "areadata": [
       5
     ]
@@ -8508,7 +8508,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "友军死亡时 시 파괴 본능에 빠져<br>해당 라운드에는 不可行动状态 되고,<br>3回合内防御관통력/攻击力 대폭 增加합니다.<br>파괴 본능이 적용된 的状态 속성 공격에 被击时 高概率  해당 라운드에는 不可行动상태에 빠지게 有可能.",
+    "description": "友军死亡时 시 파괴 본능에 빠져<br>해당 라운드에는 不可行动状态 되고,<br>3回合内防御穿透력/攻击力 대폭 增加합니다.<br>파괴 본능이 적용된 的状态 속성 공격에 被击时 高概率  해당 라운드에는 不可行动상태에 빠지게 有可能.",
     "areadata": [
       5
     ]
@@ -8687,7 +8687,7 @@
     "img": "Barrier",
     "range": 0,
     "AP": 0,
-    "description": "<불멸의 힘>으로 인해 불멸, 불멸의 대가가 적용됩니다. 불멸이发动时 사라져가는 불멸이 적용되고 3중첩 시 불멸의 힘이 사라지고 <최후의 힘>이 발동됩니다.<br><최후의 힘>이发动时 2回合内피해가 최소화 되며 被击时 有害 效果 해제, 每回合마다 一定 概率 攻击力/防御力/적중률/防御관통 效果/속성 저항 능력들이 증가됩니다. 불멸과 최후의 힘으로 발동되는 능력들은 해제 불가합니다.<br><br>불멸 : 죽지 않습니다.    불멸의 대가 : 自己的 攻击力 大幅减少.",
+    "description": "<불멸의 힘>으로 인해 불멸, 불멸의 대가가 적용됩니다. 불멸이发动时 사라져가는 불멸이 적용되고 3중첩 시 불멸의 힘이 사라지고 <최후의 힘>이 발동됩니다.<br><최후의 힘>이发动时 2回合内피해가 최소화 되며 被击时 有害 效果 해제, 每回合마다 一定 概率 攻击力/防御力/적중률/防御穿透 效果/속성 저항 능력들이 증가됩니다. 불멸과 최후의 힘으로 발동되는 능력들은 해제 불가합니다.<br><br>불멸 : 죽지 않습니다.    불멸의 대가 : 自己的 攻击力 大幅减少.",
     "areadata": [
       5
     ]
@@ -8788,11 +8788,11 @@
   "SpectorMS_EW_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "교란용 전자기장 미사일",
+    "name": "干扰电磁导弹",
     "img": "MultiMissile",
     "range": 4,
     "AP": 6,
-    "description": "전자기장 미사일로 目标 교란해造成 $(1.2) 伤害, 目标 效果抗性/射程를 下降. 该效果2회까지 可叠加.",
+    "description": "用电磁导弹 目标 교란해造成 $(1.2) 伤害, 目标 效果抗性/射程를 下降. 该效果最大可叠加2次.",
     "areadata": [
       7,
       4,
@@ -8815,11 +8815,11 @@
   "SpectorMS_EW_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "이동형 반물질 역장",
+    "name": "移动型反物质立场",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 반물질 역장을 전개해 인접 아군이 受到伤害를 一定 횟수 解除.",
+    "description": "回合开始时, 展开反物质立场 周围友军 受到的伤害一定次数无效.",
     "areadata": [
       8,
       4,
@@ -8834,7 +8834,7 @@
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "被击时, 周围给友军전투 模式分析 결과를 발신해 命中/暴击/效果 抗性 上升. 该效果3회까지 可叠加.",
+    "description": "被击时, 给周围友军전투 模式分析 결과를 발신해 命中/暴击/效果 抗性 上升. 该效果3最大可叠加.",
     "areadata": [
       7,
       8,
@@ -8849,11 +8849,11 @@
   "SpectorMS_EW_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "은폐장 전개",
+    "name": "隐蔽遮罩展开",
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时, 은폐장을 전개해 闪避大幅增加. 该效果전투가 진행될수록 점감됩니다.",
+    "description": "战斗开始时, 展开隐蔽遮罩 闪避大幅增加. 该效果随着战斗进行逐渐减少.",
     "areadata": [
       5
     ]
