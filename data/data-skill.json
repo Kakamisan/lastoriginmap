@@ -7718,7 +7718,7 @@
     "img": "MeleeAttack",
     "range": 3,
     "AP": 4,
-    "description": "目标造成 $(1.1) 伤害, 造成2回合内嘲讽/防御/暴击下降状态.",
+    "description": "目标造成 $(1.1) 伤害, 造成2回合内防御/暴击下降状态.",
     "areadata": [
       5
     ]
@@ -7730,7 +7730,7 @@
     "img": "SelfDefBuff",
     "range": 6,
     "AP": 6,
-    "description": "指定友军的AP提高, 3回合内目标指定保护.",
+    "description": "指定友军3回合内目标指定保护.",
     "areadata": [
       5
     ]
@@ -7742,7 +7742,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 效果抗性增加, 属性抗性增加.",
+    "description": "回合开始时, 行动力增加, 属性抗性增加.",
     "areadata": [
       5
     ]
