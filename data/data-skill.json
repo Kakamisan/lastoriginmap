@@ -2116,7 +2116,7 @@
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
-    "description": "被摧毁时, 所有设备强化效果解除, 一定概率陷入不可行动状态.",
+    "description": "被摧毁时, 所有设备强化效果解除, 陷入不可行动状态.",
     "areadata": [
       7,
       8,
@@ -2471,7 +2471,7 @@
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
-    "description": "被摧毁时, 所有设备强化效果解除, 一定概率陷入不可行动状态 .",
+    "description": "被摧毁时, 所有设备强化效果解除, 陷入不可行动状态 .",
     "areadata": [
       7,
       8,
@@ -3512,7 +3512,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "HP在50%以上时只受最小伤害, 效果抗性增加. 此状态下被击时, 叠加计数增加. 叠加4以上回合开始时, 此状态解除, 一定概率陷入不可行动状态.",
+    "description": "HP在50%以上时只受最小伤害, 效果抗性增加. 此状态下被击时, 叠加计数增加. 叠加4以上回合开始时, 此状态解除, 陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -4519,7 +4519,7 @@
     "range": 4,
     "AP": 4,
     "attr": "electric",
-    "description": "指定目标造成 $(1) 电属性伤害. 命中对象的高概率AP/闪避/电气抗性减少. 目标浸水状态时伤害量大幅增加, 一定概率陷入不可行动状态.",
+    "description": "指定目标造成 $(1) 电属性伤害. 命中对象的高概率AP/闪避/电气抗性减少. 目标浸水状态时伤害量大幅增加, 陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -4558,7 +4558,7 @@
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 自己浸水状态时由于放电, 受到固定伤害. 浸水状态下死亡时, 范围内目标受到电属性伤害. 被此技能电击的目标在浸水状态时, 一定概率陷入不可行动状态.",
+    "description": "攻击时, 自己浸水状态时由于放电, 受到固定伤害. 浸水状态下死亡时, 范围内目标受到电属性伤害. 被此技能电击的目标在浸水状态时, 陷入不可行动状态.",
     "areadata": [
       8,
       4,
@@ -5165,7 +5165,7 @@
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "攻击时, 自己浸水状态时由于放电, 受到固定伤害. 浸水状态下死亡时, 范围内目标受到毁灭性电属性伤害. 被此技能电击的目标在浸水状态时, 一定概率陷入不可行动状态.",
+    "description": "攻击时, 自己浸水状态时由于放电, 受到固定伤害. 浸水状态下死亡时, 范围内目标受到毁灭性电属性伤害. 被此技能电击的目标在浸水状态时, 陷入不可行动状态.",
     "areadata": [
       8,
       4,
@@ -5546,7 +5546,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "<电荷充电>叠加5以上时, 无视防御幕/减伤效果, 命中和暴击增加. 此状态下被冰属性攻击时, 强化效果解除, 一定概率陷入不可行动状态.",
+    "description": "<电荷充电>叠加5以上时, 无视防御幕/减伤效果, 命中和暴击增加. 此状态下被冰属性攻击时, 强化效果解除, 陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -7974,11 +7974,11 @@
   "Kidnapper_EW_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "회심의 반격",
+    "name": "准备反击",
     "img": "DefCounter",
     "range": 0,
     "AP": 0,
-    "description": "회심의 반격 준비 태세를 갖춘 的状态 闪避시 적에게 毁灭性 피해량으로 反击합니다. 회심의 반격 준비 태세가 종료된 후, 다음 1回合内회피율은 그대로 유지 有可能.",
+    "description": "准备反击的状态下闪避敌人攻击时用毁灭性伤害进行反击. 进入准备反击状态时, 一直到下1回合内保持绝对闪避.",
     "areadata": [
       5
     ]
@@ -7986,11 +7986,11 @@
   "Kidnapper_EW_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "흥분",
+    "name": "兴奋",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "피격 당할 시 흥분 상태에 빠져 3回合内攻击力 增加 5중첩 이상이 될 시 2回合内회심의 반격 준비 태세(회피율 대폭 상승)를 갖춥니다.",
+    "description": "被击时变得兴奋, 3回合内攻击力增加, 叠加5层时, 2回合内进入准备反击(绝对闪避).",
     "areadata": [
       5
     ]
@@ -7998,11 +7998,11 @@
   "Kidnapper_EW_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "흥분 진정",
+    "name": "兴奋释放",
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "冷气 공격에 피격 당하거나 반격 준비 태세를 갖출 시 적용 중인 흥분 状态 해제 有可能.",
+    "description": "被冷气属性攻击时或进入准备反击时, 兴奋状态释放(解除).",
     "areadata": [
       5
     ]
@@ -8015,7 +8015,7 @@
     "range": 5,
     "AP": 7,
     "attr": "electric",
-    "description": "전격구를 射击造成 $(1.5) 电属性伤害. 目标触电 状态时闪避下降, 一定 概率 无法行动 状态造成.",
+    "description": "射击造成 $(1.5) 电属性伤害. 目标触电状态时闪避下降, 一定概率无法行动.",
     "areadata": [
       5
     ]
@@ -8028,7 +8028,7 @@
     "range": 5,
     "AP": 5,
     "attr": "electric",
-    "description": "방전 공격으로 无视保护效果造成 $(0.5) 电属性伤害. 一定 概率 目标감전시켜 3回合内行动力和闪避下降.",
+    "description": "无视保护效果造成 $(0.5) 电属性伤害. 一定概率使目标触电, 3回合内行动力和闪避下降.",
     "areadata": [
       7,
       4,
@@ -8043,7 +8043,7 @@
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "경계 状态 回合开始时, 相邻铁虫的 命中减少效果解除 命中/闪避/暴击增加.",
+    "description": "警戒状态回合开始时, 相邻铁虫的命中减少效果解除, 命中/闪避/暴击增加.",
     "areadata": [
       7,
       8,
@@ -8058,11 +8058,11 @@
   "Raider_EW_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "지원 协议",
+    "name": "辅助协议",
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "경계 状态 回合开始时, 2回合内一定 概率 아군 철충들의攻击支援.",
+    "description": "警戒状态回合开始时, 2回合内一定概率对友军攻击支援.",
     "areadata": [
       7,
       8,
@@ -8082,7 +8082,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "友军死亡时, 警戒 状态 变成 2回合内行动力和闪避增加. 该效果可叠加.",
+    "description": "友军死亡时, 变成警戒状态, 2回合内行动力和闪避增加. 该效果可叠加.",
     "areadata": [
       5
     ]
@@ -8094,7 +8094,7 @@
     "img": "Scan",
     "range": 8,
     "AP": 5,
-    "description": "목표 目标조준해 표식으로 설정한 후,受到伤害 增加闪避减少  状态造成. AP 减少, 一定 概率 解除强化效果.",
+    "description": "锁定目标设置标记, 使其受到伤害增加闪避减少. AP减少, 一定概率解除强化效果.",
     "areadata": [
       5
     ]
@@ -8106,7 +8106,7 @@
     "img": "Scan",
     "range": 8,
     "AP": 6,
-    "description": "목표 目标 조준해 표식으로 설정한 후,受到伤害 增加闪避减少  状态造成. 强化效果解除, AP 减少.",
+    "description": "锁定目标区域设置标记, 使其受到伤害增加闪避减少. 解除强化效果, AP减少.",
     "areadata": [
       8,
       4,
@@ -8122,7 +8122,7 @@
     "img": "Scan",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 自己的 현재 HP 比例에 따라 周围设备 命中增加效果赋予.",
+    "description": "回合开始时, 根据自己现在的HP比例赋予周围设备命中增加效果.",
     "areadata": [
       7,
       8,
@@ -8142,7 +8142,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "充电叠加 3 以上时, 방해 效果걸 확률과 闪避大幅增加.",
+    "description": "充电叠加3以上时, 施加妨碍效果的成功率和闪避大幅增加.",
     "areadata": [
       5
     ]
@@ -8154,7 +8154,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "HP在50%以下时 每回合闪避增加. 最大叠加3层 可叠加.",
+    "description": "HP在50%以下时, 每回合闪避增加. 最大叠加3层.",
     "areadata": [
       5
     ]
@@ -8202,7 +8202,7 @@
   "UnderWatcherArm_EW_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "最大输出 암",
+    "name": "最大输出",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
@@ -8230,7 +8230,7 @@
     "img": "WideBeamShot",
     "range": 5,
     "AP": 3,
-    "description": "在指定范围 无视保护效果造成 $(0.5) 피해를 주는 확산 입자포를 발사합니다. 标记状态 对目标伤害量增加.",
+    "description": "在指定范围无视保护效果造成 $(0.5) 伤害. 对标记状态的目标伤害量增加.",
     "areadata": [
       7,
       4,
@@ -8245,7 +8245,7 @@
     "img": "BeamShot",
     "range": 8,
     "AP": 10,
-    "description": "指定 행에造成 $(2) 피해를 주는 플라즈마 입자포를 발사합니다. 无视保护效果, 标记状态 对目标伤害量 大幅增加.",
+    "description": "对指定区域造成 $(2) 伤害. 无视保护效果, 对标记状态的目标伤害量大幅增加.",
     "areadata": [
       4,
       5,
@@ -8259,7 +8259,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时 充电 状态时, 攻击之前防御和效果抗性大幅增加.",
+    "description": "回合开始时, 充电状态时, 攻击之前防御和效果抗性大幅增加.",
     "areadata": [
       5
     ]
@@ -8267,11 +8267,11 @@
   "UnderWatcher_EW_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "最大输出 왓쳐",
+    "name": "最大输出",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "充电이 4중첩 以上时, 攻击时防御幕和减伤效果无视.",
+    "description": "充电叠加4以上时, 攻击时无视防御幕和减伤效果.",
     "areadata": [
       5
     ]
@@ -8279,11 +8279,11 @@
   "UnderWatcher_EW_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "시스템 복원",
+    "name": "系统还原",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "充电에 적용 중인 的状态 自己的 HP在30% 이하일 如果 HP를 회복하고 전투를 속행을 합니다.",
+    "description": "充电状态下, 如果自己的HP在30%以下, 激活战斗续行效果.",
     "areadata": [
       5
     ]
@@ -8295,7 +8295,7 @@
     "img": "SelfAtkBuff",
     "range": 8,
     "AP": 7,
-    "description": "给各个设备充电, 攻击力和效果 抗性 增加 受到伤害 1次无效.",
+    "description": "给各个设备充电, 攻击力和效果抗性增加, 受到伤害1次无效.",
     "areadata": [
       7,
       8,
@@ -8334,7 +8334,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "使用技能时, 受到伤害3次无效. 3回合内受到伤害 减少, 效果抗性增加.",
+    "description": "使用技能时, 受到伤害3次无效. 3回合内受到伤害减少, 效果抗性增加.",
     "areadata": [
       5
     ]
@@ -8358,7 +8358,7 @@
     "img": "SuiceideBomb",
     "range": 0,
     "AP": 0,
-    "description": "被摧毁时, 所有设备强化效果解除, 一定概率陷入不可行动状态 .",
+    "description": "被摧毁时, 所有设备强化效果解除, 陷入不可行动状态.",
     "areadata": [
       7,
       8,
@@ -8378,7 +8378,7 @@
     "img": "SwordAttk",
     "range": 5,
     "AP": 5,
-    "description": "指定 对目标造成 $(1) 伤害. 目标防御力减少状态时伤害量增加, 并解除减伤效果.",
+    "description": "对指定目标造成 $(1) 伤害. 目标防御力减少状态时伤害量增加, 并解除减伤效果.",
     "areadata": [
       5
     ]
@@ -8444,7 +8444,7 @@
   "Executioner_EW_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "처형 개시",
+    "name": "开始处刑",
     "img": "SwordAttk",
     "range": 5,
     "AP": 4,
@@ -8464,7 +8464,7 @@
   "Executioner_EW_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "학살",
+    "name": "屠戮",
     "img": "WideSwordAttk",
     "range": 4,
     "AP": 8,
@@ -8484,7 +8484,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "被击时, 攻击力永久增加. 自己处于 <攻击联动> 效果状态下攻击目标时 防御幕和减伤效果无视.",
+    "description": "被击时, 攻击力永久增加. 自己处于<攻击联动>效果状态下攻击目标时, 无视防御幕和减伤效果.",
     "areadata": [
       5
     ]
@@ -8496,7 +8496,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "只受到最小伤害. 处刑 중첩이 5이상인 状态 被击时, 物质溢流受到固定物理伤害, 所有强化效果解除.",
+    "description": "只受到最小伤害. 处刑叠加5的状态被击时, 物质溢流受到固定物理伤害, 所有强化效果解除.",
     "areadata": [
       5
     ]
@@ -8504,11 +8504,11 @@
   "Executioner_EW_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "파괴 본능",
+    "name": "破坏本能",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "友军死亡时 시 파괴 본능에 빠져<br>해당 라운드에는 不可行动状态 되고,<br>3回合内防御穿透력/攻击力 대폭 增加합니다.<br>파괴 본능이 적용된 的状态 속성 공격에 被击时 高概率  해당 라운드에는 不可行动상태에 빠지게 有可能.",
+    "description": "友军死亡时, 陷入破坏本能<br>该回合陷入不可行动状态,<br>3回合内防御穿透/攻击力大幅增加.<br>破坏本能状态下被属性攻击时, 高概率陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -8516,11 +8516,11 @@
   "ExecutionerRB_EW_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "장갑 해제",
+    "name": "装甲解除",
     "img": "SwordAttk",
     "range": 4,
     "AP": 5,
-    "description": "指定 对目标造成 $(1) 伤害, 目标 장갑을 해제해 防御 降低 受到伤害增加. 目标再次受到此效果时, 不可行动 状态造成.",
+    "description": "对目标造成 $(1) 伤害, 目标防御降低，受到伤害增加. 目标再次受到此效果时, 陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -8528,11 +8528,11 @@
   "ExecutionerRB_EW_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "무장 해제",
+    "name": "解除武装",
     "img": "WideSwordAttk",
     "range": 5,
     "AP": 8,
-    "description": "在指定范围造成 $(0.75) 伤害, 目标 무장을 해제해 攻击力和暴击 下降. 目标再次受到此效果时, 陷入不可行动状态.",
+    "description": "在指定范围造成 $(0.75) 伤害, 目标攻击力和暴击下降. 目标再次受到此效果时, 陷入不可行动状态.",
     "areadata": [
       8,
       5,
@@ -8546,7 +8546,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, HP在50% 以上时 保护所有友军.",
+    "description": "回合开始时, HP在50%以上时保护所有友军.",
     "areadata": [
       7,
       8,
@@ -8566,7 +8566,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "HP在50% 以上时 只受最小伤害 效果抗性增加. 此状态下被击时, 叠加计数增加. 叠加4以上回合开始时, 此状态解除, 一定概率陷入不可行动状态.",
+    "description": "HP在50%以上时只受最小伤害，效果抗性增加. 此状态下被击时, 叠加计数增加. 叠加4以上回合开始时, 此状态解除, 陷入不可行动状态.",
     "areadata": [
       5
     ]
@@ -8578,7 +8578,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "HP在一定以下时 防御力大幅减少受到伤害增加. 此状态下闪避和行动力大幅增加.",
+    "description": "HP在一定以下时，防御力大幅减少受到伤害增加. 此状态下闪避和行动力大幅增加.",
     "areadata": [
       5
     ]
@@ -8586,11 +8586,11 @@
   "DoomEater_N_EW2_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "에너지 추출",
+    "name": "能源摄取",
     "img": "MeleeAttack",
     "range": 10,
     "AP": 5,
-    "description": "<에너지 고갈> 상태에 빠져있을 시 周围철충에게서 에너지를 추출합니다. 그리고 에너지를 추출 당한 철충은 죽음을 맞이 합니다.",
+    "description": "<能源枯竭> 状态时摄取周围铁虫. 被摄取的铁虫死亡.",
     "areadata": [
       5
     ]
@@ -8598,11 +8598,11 @@
   "DoomEater_N_EW2_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "죽음의 에너지",
+    "name": "死亡能量",
     "img": "TeamDefDeBuff",
     "range": 5,
     "AP": 3,
-    "description": "내부에 저장된 막대한 에너지를 모아, 范围内 적들에게造成 $(1) 无视保护 피해를 주는 죽음의 에너지를 방사합니다. 피격 당한 적은 해제 불가의 受到持续物理伤害.",
+    "description": "收集存储的巨大能量, 辐射死亡能量无视保护对范围内目标造成 $(1) 伤害. 被击中的目标受到无法解除的持续物理伤害.",
     "areadata": [
       4,
       5
@@ -8611,11 +8611,11 @@
   "DoomEater_N_EW2_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "에너지 고갈",
+    "name": "能源枯竭",
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "<죽음의 에너지> 스킬을 사용 시 막대한 에너지를 소비하게 变成 <에너지 고갈> 상태에 빠지게 有可能. <에너지 고갈> 상태에 빠지게 되면 도발에 면역이 되며 주위 철충에게서 에너지를 추출하여 손실된 에너지를 보충합니다. 손실된 에너지가 보충이 되면 <에너지 완충> 状态 变成 피해가 최소화 되고 有害 효과에 면역이 有可能. ",
+    "description": "使用<死亡能量>后消耗所有能量，变成<能源枯竭>状态. 进入<能源枯竭>后，免疫嘲讽效果并准备从周围铁虫摄取能量. 在消耗能量前会处于<能量缓冲>状态, 只受到最小伤害并免疫有害效果. ",
     "areadata": [
       5
     ]
@@ -8623,11 +8623,11 @@
   "DoomEater_N_EW2_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "에너지 흡수",
+    "name": "能量吸收",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "에너지 추출 시, 온 신경을 흡수에만 집중해 도발에 면역이 되고 2回合内행동을 정지합니다. 해당 상태에선防御力이减少,受到伤害增加. 30% 概率 특정 属性抗性减少.",
+    "description": "能源摄取时, 集中全身的神经, 免疫嘲讽效果，2回合内停止行动. 在此状态下防御力减少, 受到伤害增加. 30%概率某个属性抗性减少.",
     "areadata": [
       5
     ]
@@ -8635,11 +8635,11 @@
   "DoomEater_N_EW2_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "폭주",
+    "name": "暴走",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时 자신에게 <에너지 고갈> 状态 3중첩이라면 <폭주> 상태에 빠지게 变成 攻击力/命中/效果抗性增加但防御力이减少. <에너지 고갈> 状态 5중첩이라면 防御幕과 减伤效果无视 합니다. <폭주> 능력은 중첩이 되며 해제 불가입니다.",
+    "description": "回合开始时若<能源枯竭>叠加3的状态，变为<暴走>状态，攻击力/命中/效果抗性增加但防御力减少. <能源枯竭>叠加5时，追加无视防御幕和减伤效果. <暴走>状态的效果无法解除.",
     "areadata": [
       5
     ]
@@ -8647,11 +8647,11 @@
   "Executioner_BEW_EW2_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "처형 개시",
+    "name": "开始处刑",
     "img": "SwordAttk",
     "range": 5,
     "AP": 3,
-    "description": "在指定范围造成 $(1) 伤害 대상들에게 처형 낙인 效果적용시키며 낮은 概率 防御幕/减伤效果无视.",
+    "description": "在指定范围造成 $(1) 伤害，施加烙印效果，低概率无视防御幕/减伤效果.",
     "areadata": [
       0.5,
       0,
@@ -8667,11 +8667,11 @@
   "Executioner_BEW_EW2_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "학살",
+    "name": "屠戮",
     "img": "WideSwordAttk",
     "range": 4,
     "AP": 4,
-    "description": "在指定范围造成 $(1) 无视保护 伤害 추가火焰 伤害, 解除目标强化效果.",
+    "description": "无视保护在指定范围造成 $(1) 伤害，追加火焰伤害, 解除目标强化效果.",
     "areadata": [
       7,
       9,
@@ -8683,11 +8683,11 @@
   "Executioner_BEW_EW2_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "불멸∙최후",
+    "name": "不朽∙最后",
     "img": "Barrier",
     "range": 0,
     "AP": 0,
-    "description": "<불멸의 힘>으로 인해 불멸, 불멸의 대가가 적용됩니다. 불멸이发动时 사라져가는 불멸이 적용되고 3중첩 시 불멸의 힘이 사라지고 <최후의 힘>이 발동됩니다.<br><최후의 힘>이发动时 2回合内피해가 최소화 되며 被击时 有害 效果 해제, 每回合마다 一定 概率 攻击力/防御力/적중률/防御穿透 效果/속성 저항 능력들이 증가됩니다. 불멸과 최후의 힘으로 발동되는 능력들은 해제 불가합니다.<br><br>불멸 : 죽지 않습니다.    불멸의 대가 : 自己的 攻击力 大幅减少.",
+    "description": "获得<不朽的力量>, 同时也支付不朽的代价. 不朽(战斗续行)发动时不朽消散，当消散3层时失去不朽的力量变成<最后的力量>状态.<br><最后的力量>发动时，2回合内只受最小伤害，被攻击时消除一切有害效果, 每回合一定概率攻击/防御/命中/防御穿透/属性抗性增加. 不朽和最后的力量的效果无法被解除.<br><br>不朽 : 战斗续行.    不朽的代价 : 自己的攻击力大幅减少.",
     "areadata": [
       5
     ]
@@ -8695,11 +8695,11 @@
   "Executioner_BEW_EW2_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "처형 낙인",
+    "name": "处刑烙印",
     "img": "WideSwordAttk",
     "range": 0,
     "AP": 0,
-    "description": "처형 개시 스킬에 피격 당한 적은 3回合内해제 불가의 防御力감소하는 처형 낙인 效果 적용됩니다.",
+    "description": "对被开始处刑击中的敌人施加处刑烙印，3回合内受到不可解除的防御力下降效果.",
     "areadata": [
       5
     ]
@@ -8707,11 +8707,11 @@
   "Executioner_BEW_EW2_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "공포",
+    "name": "恐惧",
     "img": "TeamAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "<최후의 힘>이 적용돼 있을 시 每回合마다 바이오로이드들에게 공포심을 심어 一定 概率 攻击力/防御力/회피율 능력들을 대폭 减少 낮은 概率 1回合内陷入不可行动状态.",
+    "description": "<最后的力量>状态下，对生物类敌人注入恐惧感，每回合一定概率使其攻击/防御/闪避大幅减少，并一定概率1回合内陷入不可行动状态.",
     "areadata": [
       7,
       8,
@@ -8727,11 +8727,11 @@
   "DoomEater_N_EW_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "에너지 추출",
+    "name": "能源摄取",
     "img": "MeleeAttack",
     "range": 10,
     "AP": 3,
-    "description": "周围철충에게서 에너지를 추출합니다. 그리고 에너지를 추출 당한 철충은 죽음을 맞이 합니다.",
+    "description": "从周围的铁虫身上提取能量, 被提取能量的铁虫死亡.",
     "areadata": [
       5
     ]
@@ -8739,11 +8739,11 @@
   "DoomEater_N_EW_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "죽음의 에너지",
+    "name": "死亡能量",
     "img": "TeamDefDeBuff",
     "range": 5,
     "AP": 3,
-    "description": "내부에 저장된 막대한 에너지를 모아, 范围内 적들에게造成 $(1) 无视保护 피해를 주는 죽음의 에너지를 방사합니다. 피격 당한 적은 해제 불가의 受到持续物理伤害. 해당 스킬을 사용 시 막대한 에너지를 소비하게 变成 <에너지 고갈> 상태에 빠지게 有可能.",
+    "description": "收集存储的巨大能量, 辐射死亡能量无视保护对范围内目标造成 $(1) 伤害. 被击中的目标受到无法解除的持续物理伤害. 使用该技能是消耗大量能量，变成<能源枯竭>状态.",
     "areadata": [
       4,
       5
@@ -8752,11 +8752,11 @@
   "DoomEater_N_EW_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "에너지 갈망",
+    "name": "能量渴望",
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "오랫동안 에너지 섭취를 못해 굶주려 있어 주위의 모든 철충들을 먹어 치울 것입니다.",
+    "description": "由于长时间不能摄取能量而饥渴，将会吃掉周围所有的铁虫.",
     "areadata": [
       5
     ]
@@ -8764,11 +8764,11 @@
   "DoomEater_N_EW_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "포식 집중",
+    "name": "捕食专注",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "굶주린 둠이터의 눈에는 오로지 에너지 섭취를 위한 철충들을 찾는 것에 집중해 있어 도발에 넘어가지 않습니다.",
+    "description": "在饥渴的末日吞噬者眼中，重点是寻找铁虫并摄取能量，因此不会受到嘲讽效果.",
     "areadata": [
       5
     ]
@@ -8776,11 +8776,11 @@
   "DoomEater_N_EW_Skill5": {
     "title": "pskill3",
     "type": "passive",
-    "name": "광폭화",
+    "name": "巨大化",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时 자신에게 <에너지 고갈> 状态 적용돼 있을 시, <광폭화> 상태에 빠지게 变成 攻击力/防御力/命中/效果抗性增加. <에너지 고갈> 状态 2중첩이라면 防御幕과 减伤效果无视 합니다. <광폭화> 능력은 중첩이 되며 해제 불가입니다.",
+    "description": "回合开始时处于<能源枯竭>状态时, 进入<巨大化>状态，攻击力/防御力/命中/效果抗性增加. <能源枯竭>叠加2时，无视防御幕和减伤效果. <巨大化>效果可以叠加并且不会被解除.",
     "areadata": [
       5
     ]
@@ -8792,7 +8792,7 @@
     "img": "MultiMissile",
     "range": 4,
     "AP": 6,
-    "description": "用电磁导弹 目标 교란해造成 $(1.2) 伤害, 目标 效果抗性/射程를 下降. 该效果最大可叠加2次.",
+    "description": "用电磁导弹干扰目标造成 $(1.2) 伤害, 目标效果抗性/射程下降. 该效果最大可叠加2次.",
     "areadata": [
       7,
       4,
@@ -8803,11 +8803,11 @@
   "SpectorMS_EW_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "모드 변경",
+    "name": "模式转换",
     "img": "TeamDefBuff",
     "range": 6,
     "AP": 7,
-    "description": "전투 모드转换为 攻击力/暴击增加但 受到伤害도 增加, 行动力减少.",
+    "description": "转换为战斗模式，攻击力/暴击增加但受到伤害增加, 行动力减少.",
     "areadata": [
       5
     ]
@@ -8819,7 +8819,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "回合开始时, 展开反物质立场 周围友军 受到的伤害一定次数无效.",
+    "description": "回合开始时, 展开反物质立场，周围友军受到的伤害一定次数无效.",
     "areadata": [
       8,
       4,
@@ -8830,11 +8830,11 @@
   "SpectorMS_EW_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "전투 模式分析",
+    "name": "战斗模式分析",
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "被击时, 给周围友军전투 模式分析 결과를 발신해 命中/暴击/效果 抗性 上升. 该效果3最大可叠加.",
+    "description": "被击时, 给周围友军发送战斗模式分析结果，使其命中/暴击/效果抗性上升. 该效果最大可叠加3次.",
     "areadata": [
       7,
       8,
@@ -8853,7 +8853,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "战斗开始时, 展开隐蔽遮罩 闪避大幅增加. 该效果随着战斗进行逐渐减少.",
+    "description": "战斗开始时, 展开隐蔽遮罩闪避大幅增加. 该效果随着战斗进行逐渐减少.",
     "areadata": [
       5
     ]
