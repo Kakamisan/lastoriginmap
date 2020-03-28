@@ -7353,7 +7353,7 @@
   "NightChickM_C_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "齐克编队 (发射器)",
+    "name": "齐克编队 (导弹兵)",
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
@@ -7394,7 +7394,7 @@
     "img": "MeleeAttack",
     "range": 5,
     "AP": 4,
-    "description": "无视保护对目标造成 $(1.5) 伤害. 目标处于<奈齐克?>或<奈齐克发射器??>的有害效果状态时解除强化效果, 伤害量大幅增加.",
+    "description": "无视保护对目标造成 $(1.5) 伤害. 目标处于<奈齐克?>或<奈齐克导弹兵??>的有害效果状态时解除强化效果, 伤害量大幅增加.",
     "areadata": [
       5
     ]
